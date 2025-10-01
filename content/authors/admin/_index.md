@@ -1,20 +1,20 @@
 ---
 # Display name
-title: Alex Johnson
+title: Morgan D. Sanger
 
 # Name pronunciation (optional)
 name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Alex
-last_name: Johnson
+first_name: Morgan 
+last_name: Sanger
 
 # Pronouns (optional)
-pronouns: he/him
+pronouns: she/her
 
 # Status emoji
-status:
-  icon: 🚀
+status: # Fern
+  icon: hero/leaf
 
 # Is this the primary user of the site?
 superuser: true
@@ -23,29 +23,31 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Senior AI Research Scientist
+role: PhD Student
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: University of Washington
+    url: https://www.washington.ce.edu/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:alex.johnson@meta.com'
+    url: 'mailto:sangermd@uw.edu'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/AlexAIResearch
+  # - icon: brands/x
+  #   url: https://twitter.com/
   - icon: brands/github
-    url: https://github.com/alexjohnsonai
+    url: https://github.com/sangermd
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/alexjohnsonai/
+    url: https://www.linkedin.com/in/morgan-sanger-970761b3/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=alexjohnson
+    url: https://scholar.google.com/citations?user=morgandsanger
   - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://orcid.org/0000-0002-1280-1898
+  - icon: brands/researchgate
+    url: https://www.researchgate.net/profile/Morgan-Sanger
 
 interests:
   - Large Language Models
