@@ -1,8 +1,8 @@
 ---
 title: "Characterization of recycled concrete aggregate after eight years of field deployment"
 authors: ["B. Madras Natarajan", "Z. Kanavas", "Morgan D. Sanger", "J. Rudolph", "J. Chen", "T. B. Edil", "M. Ginder-Vogel"]
-date: 2019-06-01
-publishDate: 2019-06-01
+date: 2019-03-24
+publishDate: 2019-03-24
 publication_types: ["Journal Article"]
 publication: "Journal of Materials in Civil Engineering, 31(6): 04019070"
 abstract: | 

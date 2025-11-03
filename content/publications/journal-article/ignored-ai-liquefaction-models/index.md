@@ -1,8 +1,8 @@
 ---
 title: "Why AI models for predicting soil liquefaction have been ignored, plus some that shouldn’t be"
 authors: ["B. W. Maurer", "Morgan D. Sanger"]
-date: 2023-01-01
-publishDate: 2023-01-01
+date: 2023-08-01
+publishDate: 2023-08-01
 publication_types: ["Journal Article"]
 publication: "Earthquake Spectra"
 abstract: | 

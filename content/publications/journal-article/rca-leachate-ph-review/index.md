@@ -1,8 +1,8 @@
 ---
 title: "Recycled concrete aggregate in base course applications: Review of field and laboratory investigations of leachate pH"
 authors: ["Morgan D. Sanger", "B. Madras Natarajan", "B. Wang", "T. B. Edil", "M. Ginder-Vogel"]
-date: 2020-01-01
-publishDate: 2020-01-01
+date: 2020-03-05
+publishDate: 2020-03-05
 publication_types: ["Journal Article"]
 publication: "Journal of Hazardous Materials, 385: 121562"
 abstract: |

@@ -1,8 +1,8 @@
 ---
 title: "Mechanics-informed machine learning for geospatial modeling of soil liquefaction: global and national surrogate models for simulation and near-real-time response"
 authors: ["Morgan D. Sanger", "M. Geyin", "B. W. Maurer"]
-date: 2025-11-01
-publishDate: 2025-11-01
+date: 2025-08-23
+publishDate: 2025-08-23
 publication_types: ["Journal Article"]  
 publication: "Journal of Geotechnical and Geoenvironmental Engineering, 151(11): 04025126"
 abstract: | 
