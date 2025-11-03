@@ -13,8 +13,8 @@ last_name: Sanger
 pronouns: she/her
 
 # Status emoji
-status: # Fern
-  icon: hero/leaf
+status: # Tree
+  icon: hero/tree
 
 # Is this the primary user of the site?
 superuser: true
@@ -66,26 +66,26 @@ education:
     date_start: 2022-09-01
     date_end: Expected Summer 2026
     summary: |
-      Thesis on _Geotechnical Modeling and AI Applications_. Supervised by Prof. John Doe. Published 5 papers in ASCE and GSA, with 2 best paper awards.
+      Dissertation: AI-driven and near-real-time modeling of natural hazards
+      Certificate in Data Science
     # button:
     #   text: 'Read Thesis'
     #   url: 'https://example.com/thesis.pdf'
+
   - area: MS, Geological Engineering
     institution: University of Wisconsin-Madison
     date_start: 2018-01-01
     date_end: 2019-05-31
     summary: |
-      GPA: 4.0/4.0
+      Thesis: Chemistry of recycled concrete aggregate leachate in pavement base course applications 
 
-      Specialized in machine learning and robotics.
   - area: BS, Geological Engineering, Geology & Geophysics
     institution: University of Wisconsin-Madison
     date_start: 2013-09-01
     date_end: 2017-12-31
     summary: |
-      GPA: 3.9/4.0
-
-      Minored in Mathematics. President of AI Club.
+      Certificate in Engineering for Energy Sustainability
+      Certificate in Environmental Studies
 
 work:
   - position: Senior AI Research Scientist
@@ -105,45 +105,45 @@ work:
     summary: |
       Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
 
-# Skills
-# Add your own SVG icons to `assets/media/icons/`
-skills:
-  - name: Technical Skills
-    items:
-      - name: Python & PyTorch
-        description: ''
-        percent: 95
-        icon: code-bracket
-      - name: Machine Learning
-        description: ''
-        percent: 100
-        icon: chart-bar
-      - name: Cloud Computing (AWS/GCP)
-        description: ''
-        percent: 85
-        icon: cloud
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking in the Rockies
-        description: ''
-        percent: 80
-        icon: person-simple-walk
-      - name: Building Custom PCs
-        description: ''
-        percent: 90
-        icon: cpu-chip
-      - name: Sci-Fi Reading
-        description: ''
-        percent: 70
-        icon: book-open
+# # Skills
+# # Add your own SVG icons to `assets/media/icons/`
+# skills:
+#   - name: Technical Skills
+#     items:
+#       - name: Python & PyTorch
+#         description: ''
+#         percent: 95
+#         icon: code-bracket
+#       - name: Machine Learning
+#         description: ''
+#         percent: 100
+#         icon: chart-bar
+#       - name: Cloud Computing (AWS/GCP)
+#         description: ''
+#         percent: 85
+#         icon: cloud
+#   - name: Hobbies
+#     color: '#eeac02'
+#     color_border: '#f0bf23'
+#     items:
+#       - name: Hiking in the Rockies
+#         description: ''
+#         percent: 80
+#         icon: person-simple-walk
+#       - name: Building Custom PCs
+#         description: ''
+#         percent: 90
+#         icon: cpu-chip
+#       - name: Sci-Fi Reading
+#         description: ''
+#         percent: 70
+#         icon: book-open
 
-languages:
-  - name: English
-    percent: 100
-  - name: Spanish
-    percent: 50
+# languages:
+#   - name: English
+#     percent: 100
+#   - name: Spanish
+#     percent: 50
 
 # Awards.
 #   Add/remove as many awards below as you like.
@@ -173,4 +173,4 @@ awards:
       Recognized for contributions to scaling laws in deep learning.
 ---
 
-Alex Johnson is a Senior AI Research Scientist at Meta AI, where he leads groundbreaking work on large language models and multimodal systems. His research has been published in top conferences like NeurIPS and ICML, with over 10,000 citations. Alex is passionate about pushing the boundaries of AI while ensuring ethical development. Outside of work, he enjoys hiking in the Rockies, building custom PCs, and mentoring the next generation of AI talent.
+Morgan Sanger, P.E. is a PhD student in geotechnical engineering at the University of Washington. Her doctoral research includes applying AI/ML to large geospatial and geotechnical data sets for improved earthquake hazard modeling and risk management. 
