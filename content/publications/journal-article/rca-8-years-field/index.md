@@ -10,5 +10,5 @@ abstract: |
 featured: false
 # tags: ["RCA", "Characterization"]
 doi: https://doi.org/10.1061/(ASCE)MT.1943-5533.0002708
-url_pdf:
+url_pdf: https://doi.org/10.1061/(ASCE)MT.1943-5533.0002708 
 ---

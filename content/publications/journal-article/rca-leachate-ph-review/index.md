@@ -10,7 +10,6 @@ abstract: |
 featured: false
 # tags: ["RCA", "Leachate", "Review"]
 doi: https://doi.org/10.1016/j.jhazmat.2019.121562
-url_pdf:
-url_code:
-url_dataset:
+url_pdf: https://doi.org/10.1016/j.jhazmat.2019.121562 
+
 ---

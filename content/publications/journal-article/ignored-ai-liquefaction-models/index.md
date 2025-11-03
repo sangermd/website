@@ -11,5 +11,5 @@ abstract: |
 featured: false
 # tags: ["Liquefaction", "AI/ML", "Best Practices", "Review"]
 doi: https://doi.org/10.1177/87552930231173711
-url_pdf:
+url_pdf: https://doi.org/10.1177/87552930231173711
 ---

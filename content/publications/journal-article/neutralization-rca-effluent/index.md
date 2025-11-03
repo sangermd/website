@@ -10,6 +10,6 @@ abstract: |
 featured: false
 # tags: ["RCA", "Leachate", "Soils"]
 doi: https://doi.org/10.1002/jeq2.20008
-url_pdf:
+url_pdf: https://doi.org/10.1002/jeq2.20008
 ---
 

@@ -11,7 +11,7 @@ abstract: |
 featured: false
 # tags: ["Liquefaction", "Mechanics-informed ML", "Geospatial", "Surrogate models", "Geotechnical engineering"]
 doi: https://doi.org/10.1061/JGGEFK.GTENG-13737
-url_pdf:
-url_code:
-url_dataset:
+url_pdf: https://doi.org/10.1061/JGGEFK.GTENG-13737
+url_code: https://doi.org/10.17603/ds2-sp3e-dp21
+url_dataset: https://doi.org/10.17603/ds2-c0z7-hc12 
 ---
