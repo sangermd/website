@@ -108,47 +108,6 @@ work:
     company_logo: ''
     date_start: 2018-01-01
     date_end: 2019-05-31
-
-# # Skills
-# # Add your own SVG icons to `assets/media/icons/`
-# skills:
-#   - name: Technical Skills
-#     items:
-#       - name: Python & PyTorch
-#         description: ''
-#         percent: 95
-#         icon: code-bracket
-#       - name: Machine Learning
-#         description: ''
-#         percent: 100
-#         icon: chart-bar
-#       - name: Cloud Computing (AWS/GCP)
-#         description: ''
-#         percent: 85
-#         icon: cloud
-#   - name: Hobbies
-#     color: '#eeac02'
-#     color_border: '#f0bf23'
-#     items:
-#       - name: Hiking in the Rockies
-#         description: ''
-#         percent: 80
-#         icon: person-simple-walk
-#       - name: Building Custom PCs
-#         description: ''
-#         percent: 90
-#         icon: cpu-chip
-#       - name: Sci-Fi Reading
-#         description: ''
-#         percent: 70
-#         icon: book-open
-
-# languages:
-#   - name: English
-#     percent: 100
-#   - name: Spanish
-#     percent: 50
-
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
@@ -157,95 +116,72 @@ awards:
   - title: Learning from Earthquakes Travel Study
     awarder: Earthquake Engineering Research Institute
     date: '2025-01-01'
-    icon: hero/star
   - title: NextProf Nexus Workshop (Selected Participant)
     awarder: University of California–Berkeley, Berkeley, CA
     date: '2025-01-01'
-    icon: hero/star
   - title: EERI/FEMA NEHRP Graduate Fellowship (2024–2025)
     awarder: Earthquake Engineering Research Institute
     date: '2024-09-01'
-    icon: hero/star
   - title: Earthquake Spectra Outstanding Paper Award (2023)
     awarder: Earthquake Engineering Research Institute
     date: '2024-03-01'
-    icon: hero/star
   - title: 3rd Place, ASCE Geo-Congress National Poster Competition
     awarder: Vancouver, BC
     date: '2024-02-01'
-    icon: hero/star
   - title: Herbold Data Science Fellow
     awarder: University of Washington College of Engineering
     date: '2023-09-01'
-    icon: hero/star
   - title: 1st Place, National Highway Geology Symposium Poster Competition
     awarder: Tacoma, WA
     date: '2023-08-01'
-    icon: hero/star
   - title: Thomas Wysockey Civil Engineering Scholar
     awarder: Deep Foundations Institute
     date: '2023-06-01'
-    icon: hero/star
   - title: Shannon Memorial Fellow
     awarder: University of Washington Dept. of Civil & Environmental Engineering
     date: '2023-06-01'
-    icon: hero/star
   - title: Industry Advancement Scholar
     awarder: International Association of Foundation Drilling
     date: '2023-06-01'
-    icon: hero/star
   - title: Osberg Recruited Fellow
     awarder: University of Washington College of Engineering
     date: '2022-09-01'
-    icon: hero/star
   - title: Early Excellence in Teaching Award
     awarder: University of Wisconsin–Madison
     date: '2019-05-01'
-    icon: hero/star
   - title: Haimson Outstanding Graduate Student
     awarder: University of Wisconsin–Madison Dept. of Geological Engineering
     date: '2018-05-01'
-    icon: hero/star
   - title: 1st Place, UW-Madison Bryson Poster Competition
     awarder: Madison, WI
     date: '2018-04-01'
-    icon: hero/star
   - title: 1st Place, UW-Madison Bryson Poster Competition
     awarder: Madison, WI
     date: '2017-04-01'
-    icon: hero/star
   - title: John Dickinson Award
     awarder: Barr Engineering, Minneapolis, MN
     date: '2017-03-01'
-    icon: hero/star
   - title: 1st Place, Institute on Lake Superior Geology Student Poster Competition
     awarder: Wawa, ON
     date: '2017-03-01'
-    icon: hero/star
   - title: Wisconsin Idea Fellow
     awarder: UW-Madison Morgridge Center for Public Service (2016–2017)
     date: '2017-01-01'
-    icon: hero/star
   - title: Wisconsin Idea Fellow
     awarder: UW-Madison Morgridge Center for Public Service (2015–2016)
     date: '2016-01-01'
-    icon: hero/star
   - title: Severson Undergraduate Student Award
     awarder: UW-Madison Dept. of Geological Engineering
     date: '2016-05-01'
-    icon: hero/star
   - title: Outstanding Sophomore Award
     awarder: UW-Madison Dept. of Geoscience
     date: '2015-05-01'
-    icon: hero/star
   - title: Thermo Fisher Scientific STEM Scholar
     awarder: Thermo Fisher Scientific, Madison, WI
     date: '2013-09-01'
-    icon: hero/star
   - title: Wisconsin Academic Excellence Scholar
     awarder: Wisconsin Higher Educational Aid Board
     date: '2013-09-01'
-    icon: hero/star
 
 ---
 
