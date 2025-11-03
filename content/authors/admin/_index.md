@@ -14,7 +14,7 @@ pronouns: she/her
 
 # Status emoji
 status: # Tree
-  icon: assets/media/icon.png
+  icon: 🌳
 
 # Is this the primary user of the site?
 superuser: true
@@ -64,7 +64,7 @@ education:
   - area: PhD, Civil Engineering (Geotechnical)
     institution: University of Washington
     date_start: 2022-09-01
-    # date_end: Expected Summer 2026
+    date_end: ''
     summary: |
       Dissertation: AI-driven and near-real-time modeling of natural hazards
       Certificate in Data Science
@@ -88,22 +88,26 @@ education:
       Certificate in Environmental Studies
 
 work:
-  - position: Senior AI Research Scientist
-    company_name: Meta AI
-    company_url: 'https://ai.meta.com/'
+  - position: Research & Teaching Assistant
+    company_name: University of Washington
     company_logo: ''
-    date_start: 2020-01-01
+    date_start: 2022-09-01
     date_end: ''
-    summary: |2-
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models. 50+ citations in 3 years.
-  - position: AI Research Intern
-    company_name: OpenAI
-    company_url: 'https://openai.com/'
+  - position: Visiting Researcher
+    company_name: Norwegian Geotechnical Institute
     company_logo: ''
-    date_start: 2019-06-01
-    date_end: 2019-12-31
-    summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+    date_start: 2024-10-01
+    date_end: 2025-09-01
+  - position: Research & Teaching Assistant
+    company_name: Shannon & Wilson, Inc.
+    company_logo: ''
+    date_start: 2022-09-01
+    date_end: 2023-08-31
+  - position: Research & Teaching Assistant
+    company_name: University of Wisconsin-Madison
+    company_logo: ''
+    date_start: 2018-01-01
+    date_end: 2019-05-31
 
 # # Skills
 # # Add your own SVG icons to `assets/media/icons/`
@@ -150,27 +154,99 @@ work:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Best Paper Award
-    url: https://neurips.cc/
-    date: '2022-12-01'
-    awarder: NeurIPS
-    icon: hero/trophy
-    summary: |
-      Awarded for groundbreaking work on efficient training of large models.
-  - title: AI Innovation Grant
-    url: https://www.nsf.gov/
-    date: '2021-06-15'
-    awarder: National Science Foundation
-    icon: hero/currency-dollar
-    summary: |
-      $500,000 grant for research in ethical AI development.
-  - title: Outstanding PhD Thesis
-    url: https://www.stanford.edu/
-    date: '2019-06-30'
-    awarder: Stanford University
-    icon: hero/academic-cap
-    summary: |
-      Recognized for contributions to scaling laws in deep learning.
+  - title: Learning from Earthquakes Travel Study
+    awarder: Earthquake Engineering Research Institute
+    date: '2025-01-01'
+    icon: hero/star
+  - title: NextProf Nexus Workshop (Selected Participant)
+    awarder: University of California–Berkeley, Berkeley, CA
+    date: '2025-01-01'
+    icon: hero/star
+  - title: EERI/FEMA NEHRP Graduate Fellowship (2024–2025)
+    awarder: Earthquake Engineering Research Institute
+    date: '2024-09-01'
+    icon: hero/star
+  - title: Earthquake Spectra Outstanding Paper Award (2023)
+    awarder: Earthquake Engineering Research Institute
+    date: '2024-03-01'
+    icon: hero/star
+  - title: 3rd Place, ASCE Geo-Congress National Poster Competition
+    awarder: Vancouver, BC
+    date: '2024-02-01'
+    icon: hero/star
+  - title: Herbold Data Science Fellow
+    awarder: University of Washington College of Engineering
+    date: '2023-09-01'
+    icon: hero/star
+  - title: 1st Place, National Highway Geology Symposium Poster Competition
+    awarder: Tacoma, WA
+    date: '2023-08-01'
+    icon: hero/star
+  - title: Thomas Wysockey Civil Engineering Scholar
+    awarder: Deep Foundations Institute
+    date: '2023-06-01'
+    icon: hero/star
+  - title: Shannon Memorial Fellow
+    awarder: University of Washington Dept. of Civil & Environmental Engineering
+    date: '2023-06-01'
+    icon: hero/star
+  - title: Industry Advancement Scholar
+    awarder: International Association of Foundation Drilling
+    date: '2023-06-01'
+    icon: hero/star
+  - title: Osberg Recruited Fellow
+    awarder: University of Washington College of Engineering
+    date: '2022-09-01'
+    icon: hero/star
+  - title: Early Excellence in Teaching Award
+    awarder: University of Wisconsin–Madison
+    date: '2019-05-01'
+    icon: hero/star
+  - title: Haimson Outstanding Graduate Student
+    awarder: University of Wisconsin–Madison Dept. of Geological Engineering
+    date: '2018-05-01'
+    icon: hero/star
+  - title: 1st Place, UW-Madison Bryson Poster Competition
+    awarder: Madison, WI
+    date: '2018-04-01'
+    icon: hero/star
+  - title: 1st Place, UW-Madison Bryson Poster Competition
+    awarder: Madison, WI
+    date: '2017-04-01'
+    icon: hero/star
+  - title: John Dickinson Award
+    awarder: Barr Engineering, Minneapolis, MN
+    date: '2017-03-01'
+    icon: hero/star
+  - title: 1st Place, Institute on Lake Superior Geology Student Poster Competition
+    awarder: Wawa, ON
+    date: '2017-03-01'
+    icon: hero/star
+  - title: Wisconsin Idea Fellow
+    awarder: UW-Madison Morgridge Center for Public Service (2016–2017)
+    date: '2017-01-01'
+    icon: hero/star
+  - title: Wisconsin Idea Fellow
+    awarder: UW-Madison Morgridge Center for Public Service (2015–2016)
+    date: '2016-01-01'
+    icon: hero/star
+  - title: Severson Undergraduate Student Award
+    awarder: UW-Madison Dept. of Geological Engineering
+    date: '2016-05-01'
+    icon: hero/star
+  - title: Outstanding Sophomore Award
+    awarder: UW-Madison Dept. of Geoscience
+    date: '2015-05-01'
+    icon: hero/star
+  - title: Thermo Fisher Scientific STEM Scholar
+    awarder: Thermo Fisher Scientific, Madison, WI
+    date: '2013-09-01'
+    icon: hero/star
+  - title: Wisconsin Academic Excellence Scholar
+    awarder: Wisconsin Higher Educational Aid Board
+    date: '2013-09-01'
+    icon: hero/star
+
 ---
 
 Morgan Sanger, P.E. is a PhD student in geotechnical engineering at the University of Washington. Her doctoral research includes applying AI/ML to large geospatial and geotechnical data sets for improved earthquake hazard modeling and risk management. 
