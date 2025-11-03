@@ -1,0 +1,7 @@
+/* Remove heading + icon from the resume-biography-3 block */
+section[data-block="resume-biography-3"] .section-heading,
+section[data-block="resume-biography-3"] .section-heading .icon,
+section[data-block="resume-biography-3"] h2,
+section[data-block="resume-biography-3"] .hb-icon {
+  display: none !important;
+}
