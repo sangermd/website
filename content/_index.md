@@ -17,10 +17,10 @@ sections:
         text: Download CV
         url: uploads/CV_Sanger.pdf
       headings:
-        about: ''
+        about: '   '
         education: ''
         interests: ''
-      show_icon: false
+        show_icon: false
 
     design:
       # Apply a gradient background
