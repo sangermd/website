@@ -1,8 +1,8 @@
 ---
 title: "Geospatial AI for liquefaction hazard and impact forecasting: a demonstrative study in the U.S. Pacific Northwest"
 authors: ["Morgan D. Sanger", "B. W. Maurer"]
-date: 2025-12-01
-publishDate: 2025-12-01
+# date: 2025-12-01
+# publishDate: 2025-12-01
 publication_types: ["Preprint"]
 publication: "Geodata and AI (In Review)"
 abstract: |

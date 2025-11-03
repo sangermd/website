@@ -12,6 +12,12 @@ publication_types: ["Dataset"]
 publication: "DesignSafe-CI (Dataset)"
 featured: false
 # tags: ["Dataset", "CPT", "North America"]
-doi: https://doi.org/10.17603/ds2-gqjm-t836
-url_dataset: https://doi.org/10.17603/ds2-gqjm-t836
+hugoblox:
+  ids:
+    doi: "10.17603/ds2-gqjm-t836"
+
+links:
+  - type: dataset
+    name: "Dataset (DesignSafe DOI)"
+    url: "https://doi.org/10.17603/ds2-gqjm-t836"
 ---
