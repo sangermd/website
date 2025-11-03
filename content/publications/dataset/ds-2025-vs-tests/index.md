@@ -3,8 +3,8 @@ title: "A database of shear wave velocity tests from North America"
 authors:
   - Morgan D. Sanger
   - B. W. Maurer
-date: 2025-01-01
-publishDate: 2025-01-01
+date: 2025-11-01
+publishDate: 2025-11-01
 publication_types: ["Dataset"]
 publication: "DesignSafe-CI (Dataset)"
 featured: false
