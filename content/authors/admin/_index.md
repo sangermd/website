@@ -64,7 +64,7 @@ education:
   - area: PhD, Civil Engineering (Geotechnical)
     institution: University of Washington
     date_start: 2022-09-01
-    date_end: Expected Summer 2026
+    # date_end: Expected Summer 2026
     summary: |
       Dissertation: AI-driven and near-real-time modeling of natural hazards
       Certificate in Data Science
