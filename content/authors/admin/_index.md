@@ -23,7 +23,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: PhD Student
+role: PhD Candidate
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -35,48 +35,53 @@ organizations:
 profiles:
   - icon: at-symbol
     url: 'mailto:sangermd@uw.edu'
-    label: E-mail Me
-  # - icon: brands/x
-  #   url: https://twitter.com/
+    label: E-mail
   - icon: brands/github
     url: https://github.com/sangermd
+    label: GitHub Profile
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/morgan-sanger-970761b3/
+    label: LinkedIn Profile
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=morgandsanger
   - icon: academicons/orcid
+    label: ORCID Profile
     url: https://orcid.org/0000-0002-1280-1898
-  - icon: brands/researchgate
+  - icon: academicons/researchgate
     url: https://www.researchgate.net/profile/Morgan-Sanger
+    label: ResearchGate Profile
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Geotechnical Engineering
+  - Earthquake Engineering
+  - AI/ML
+  - High-Performance Computing
+  - Geospatial Analysis
+  - Geostatistics
+  - Remote Sensing
 
 education:
-  - area: PhD Computer Science (AI Focus)
-    institution: Stanford University
-    date_start: 2015-09-01
-    date_end: 2019-06-30
+  - area: PhD, Civil Engineering (Geotechnical)
+    institution: University of Washington
+    date_start: 2022-09-01
+    date_end: Expected Summer 2026
     summary: |
-      Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com/thesis.pdf'
-  - area: MS Computer Science
-    institution: Carnegie Mellon University
-    date_start: 2013-09-01
-    date_end: 2015-05-31
+      Thesis on _Geotechnical Modeling and AI Applications_. Supervised by Prof. John Doe. Published 5 papers in ASCE and GSA, with 2 best paper awards.
+    # button:
+    #   text: 'Read Thesis'
+    #   url: 'https://example.com/thesis.pdf'
+  - area: MS, Geological Engineering
+    institution: University of Wisconsin-Madison
+    date_start: 2018-01-01
+    date_end: 2019-05-31
     summary: |
       GPA: 4.0/4.0
 
       Specialized in machine learning and robotics.
-  - area: BS Computer Science
-    institution: MIT
-    date_start: 2009-09-01
-    date_end: 2013-05-31
+  - area: BS, Geological Engineering, Geology & Geophysics
+    institution: University of Wisconsin-Madison
+    date_start: 2013-09-01
+    date_end: 2017-12-31
     summary: |
       GPA: 3.9/4.0
 
