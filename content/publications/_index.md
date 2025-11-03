@@ -1,19 +1,10 @@
 ---
 title: Publications
-type: publication        # <- key: treat this section as publications
-
-cms_exclude: true
-
-# View.
+type: publication
 view: citation
 cascade:
   - _target:
       path: /publications/**
+    type: publication
     share: false
-    type: publication    # <- ensure children inherit the type   
-
-# Optional header image (relative to `static/media/` folder).
-banner:
-  caption: ''
-  image: ''
 ---
