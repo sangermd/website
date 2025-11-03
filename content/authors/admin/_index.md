@@ -14,7 +14,7 @@ pronouns: she/her
 
 # Status emoji
 status: # Tree
-  icon: hero/tree
+  icon: assets/media/icon.png
 
 # Is this the primary user of the site?
 superuser: true
