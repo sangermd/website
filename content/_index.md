@@ -19,7 +19,7 @@ sections:
         text: Download CV
         url: uploads/CV_Sanger.pdf
       headings:
-        about: ''
+        about: 'About Me'
         education: ''
         interests: ''
     design:
