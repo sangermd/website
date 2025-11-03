@@ -70,8 +70,8 @@ sections:
   - block: collection
     id: news
     content:
-      title: Recent News
-      subtitle: ''
+      title: I Dig It
+      subtitle: Geotech-adjacent recommendations that I have recently enjoyed.
       text: ''
       # Page type to display. E.g. post, talk, publication...
       page_type: blog
