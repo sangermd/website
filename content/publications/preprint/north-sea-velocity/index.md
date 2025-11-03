@@ -1,8 +1,9 @@
 ---
 title: "Towards AI-driven seismic velocity modelling in the North Sea: Using onshore data to predict offshore conditions"
 authors: ["Morgan D. Sanger", "B. Carlton", "Z. Liu", "M. Vanneste", "L. Griffiths", "B. W. Maurer"]
-
-publication_types: ["3"]  # Preprint / In review
+date: 2025-01-01
+publishDate: 2025-01-01
+publication_types: ["3"]
 publication: "(In Review)"
 abstract:
 featured: false
