@@ -2,13 +2,34 @@
 title: Teaching & Mentoring
 summary: Teaching & Mentoring
 type: landing
-
 sections:
   - block: markdown
     content:
       title: ""
       text: |
-        <h1 class="teaching-title">Teaching & Mentoring</h1>
+        <style>
+          /* Page-local styles (only affect this page) */
+          .teach-wrap{
+            max-width: 1200px;          /* ← change to 1300/1400 if you want wider */
+            margin: 0 auto;             /* center the column */
+            padding: 0 1.25rem;         /* side gutters */
+          }
+          .teach-title{
+            font-weight: 800;
+            letter-spacing: -0.02em;
+            line-height: 1.2;
+            margin: 0 0 1rem 0;
+            font-size: 2rem;
+          }
+          @media (min-width: 768px){ .teach-title{ font-size: 2.75rem; } }
+          @media (min-width: 1024px){ .teach-title{ font-size: 3rem; } }
+          /* kill any skinny caps inside this wrapper */
+          .teach-wrap .prose,
+          .teach-wrap [class*="max-w-"]{ max-width: none !important; }
+        </style>
+
+        <div class="teach-wrap">
+        <h1 class="teach-title">Teaching & Mentoring</h1>
 
         ## University of Washington
 
@@ -46,8 +67,9 @@ sections:
 
         - **Instructor, Wisconsin Rocks Program** (Spring 2014; Fall 2014; Spring 2015)  
           1-hour geology outreach for K–8; multiple deliveries (~100 students).
+        </div>
     design:
-      container: full               # let our CSS create the centered wide column
-      css_class: teaching-wide prose
+      container: full
       background: {}
+
 ---

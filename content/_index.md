@@ -76,7 +76,7 @@ sections:
   - block: collection
     id: library
     content:
-      title: From my Library
+      title: From My Library
       text: 'Recent geotech and geotech-adjacent books, podcasts, and videos I’ve enjoyed.'
       filters:
         folders:
