@@ -84,7 +84,7 @@ education:
     date_start: 2013-09-01
     date_end: 2017-12-31
     summary: |
-      Certificate in Engineering for Energy Sustainability
+      Certificate in Engineering for Energy Sustainability  
       Certificate in Environmental Studies
 
 work:
@@ -98,7 +98,7 @@ work:
     company_logo: ''
     date_start: 2024-10-01
     date_end: 2025-09-01
-  - position: Geotechnical Engineer
+  - position: Geotechnical Engineer 
     company_name: Shannon & Wilson, Inc.
     company_logo: ''
     date_start: 2019-07-17
