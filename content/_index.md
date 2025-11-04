@@ -56,6 +56,9 @@ sections:
         folders:
           - publications
         exclude_featured: false
+      sort_by: "date"
+      sort_ascending: false
+      count: 10
     design:
       view: citation
   - block: collection
@@ -65,8 +68,11 @@ sections:
       filters:
         folders:
           - events
+      sort_by: "date"
+      sort_ascending: false
+      count: 5
     design:
-      view: card
+      view: compact
   - block: collection
     id: news
     content:
