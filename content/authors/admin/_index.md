@@ -14,7 +14,7 @@ pronouns: she/her
 
 # Status emoji
 status: # Coffee cup
-  icon: hero/hot-beverage
+  icon: ☕
 
 # Is this the primary user of the site?
 superuser: true
