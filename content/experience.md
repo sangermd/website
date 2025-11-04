@@ -22,7 +22,10 @@ sections:
     content:
       title: Honors & Awards
       username: admin
-     - block: markdown
+    design:
+    # Show as simple list
+      is_list: true
+  - block: markdown
     content:
       title: ''
       text: |
