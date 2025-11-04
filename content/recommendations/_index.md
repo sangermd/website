@@ -6,17 +6,15 @@ type: landing
 sections:
   - block: markdown
     content:
-      title: ''
+      title: Recommendations
       text: |
-        ## Recommendations
-
         Here are some geotech-adjacent books, podcasts, and videos I’ve enjoyed recently.
     design:
       background: {}
 
   - block: collection
     content:
-      title: Latest picks
+      title: 
       filters:
         folders:
           - recommendations
