@@ -10,7 +10,7 @@ sections:
         <style>
           /* Page-local styles (only affect this page) */
           .teach-wrap{
-            max-width: 1200px;          /* ← change to 1300/1400 if you want wider */
+            max-width: 1400px;          /* ← change to 1300/1400 if you want wider */
             margin: 0 auto;             /* center the column */
             padding: 0 1.25rem;         /* side gutters */
           }
