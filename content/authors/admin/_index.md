@@ -66,7 +66,7 @@ education:
     date_start: 2022-09-01
     date_end: ''
     summary: |
-      Dissertation: AI-driven and near-real-time modeling of natural hazards
+      Dissertation: AI-driven and near-real-time modeling of natural hazards  
       Certificate in Data Science
     # button:
     #   text: 'Read Thesis'
@@ -84,7 +84,7 @@ education:
     date_start: 2013-09-01
     date_end: 2017-12-31
     summary: |
-      Certificate in Engineering for Energy Sustainability; 
+      Certificate in Engineering for Energy Sustainability  
       Certificate in Environmental Studies
 
 work:
