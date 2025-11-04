@@ -83,9 +83,9 @@ sections:
           - recommendations     # ← pull from the new section
       sort_by: date
       sort_ascending: false
-      count: 5
+      count: 3
     design:
-      view: article-list       # ← list, not cards
+      view: card
       background: {}
 
       # Reduce spacing

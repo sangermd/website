@@ -23,6 +23,6 @@ sections:
       sort_ascending: false
       count: 20
     design:
-      view: article-list        # <- simple list layout
+      view: card
       background: {}
 ---
