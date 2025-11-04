@@ -7,30 +7,6 @@ sections:
     content:
       title: ""
       text: |
-        <style>
-          /* Page-local styles (only affect this page) */
-          .teach-wrap{
-            max-width: 1800px;          /* ← change to 1300/1400 if you want wider */
-            margin: 0 auto;             /* center the column */
-            padding: 0 0;         /* side gutters */
-          }
-          .teach-title{
-            font-weight: 800;
-            letter-spacing: -0.02em;
-            line-height: 1.2;
-            margin: 0 0 1rem 0;
-            font-size: 2rem;
-          }
-          @media (min-width: 768px){ .teach-title{ font-size: 2.75rem; } }
-          @media (min-width: 1024px){ .teach-title{ font-size: 3rem; } }
-          /* kill any skinny caps inside this wrapper */
-          .teach-wrap .prose,
-          .teach-wrap [class*="max-w-"]{ max-width: none !important; }
-        </style>
-
-        <div class="teach-wrap">
-        <h1 class="teach-title">TeachingMentoring</h1>
-
         ## University of Washington
 
         - **Teaching Assistant, CIVENGR 367: Soil Mechanics** (Spring 2026)  
