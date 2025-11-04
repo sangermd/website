@@ -16,6 +16,6 @@ hugoblox:
 
 links:
   - type: dataset
-    name: "Dataset (DesignSafe DOI)"
+    name: "Dataset"
     url: "https://doi.org/10.17603/ds2-phsq-wv17"
 ---

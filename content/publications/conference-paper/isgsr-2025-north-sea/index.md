@@ -18,6 +18,6 @@ hugoblox:
 
 links:
   - type: conference-paper
-    name: "Conference Paper (DOI)"
+    name: "DOI"
     url: "https://doi.org/10.3850/9789819440757"
 ---

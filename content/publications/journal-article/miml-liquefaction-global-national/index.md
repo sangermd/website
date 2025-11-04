@@ -14,12 +14,12 @@ hugoblox:
 
 links:
   - type: pdf
-    name: "Publisher PDF"
+    name: "PDF"
     url: "https://doi.org/10.1061/JGGEFK.GTENG-13737"
   - type: code
-    name: "Code (DesignSafe)"
+    name: "Code"
     url: "https://doi.org/10.17603/ds2-sp3e-dp21"
   - type: dataset
-    name: "Dataset (DesignSafe)"
+    name: "Dataset"
     url: "https://doi.org/10.17603/ds2-c0z7-hc12"
 ---
