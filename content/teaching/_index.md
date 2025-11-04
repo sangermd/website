@@ -46,8 +46,9 @@ sections:
           1-hour geology outreach for K–8; multiple deliveries (~100 students).
     design:
       css_class: prose max-w-5xl mx-auto
+      # Reduce spacing
       spacing:
-        padding: ["2rem", "0", "2rem", "0"]
+        padding: [0, 0, 0, 0]
       background: {}
 
 ---

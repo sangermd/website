@@ -76,8 +76,8 @@ sections:
   - block: collection
     id: library
     content:
-      title: Library
-      text: 'Geotech-ish recommendations I’ve enjoyed recently.'
+      title: From my library
+      text: 'Recent geotech-ish books, podcasts, and videos I’ve enjoyed.'
       filters:
         folders:
           - recommendations     # ← pull from the new section
