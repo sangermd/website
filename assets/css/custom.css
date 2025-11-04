@@ -1,0 +1,3 @@
+/* Make teaching page nice and wide */
+.hb-block.teaching-wide .container { max-width: 1200px; }  /* widen block container */
+.hb-block.teaching-wide .prose { max-width: none; }        /* remove prose cap */
