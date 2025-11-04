@@ -4,14 +4,14 @@ summary: Teaching & Mentoring
 type: landing
 
 sections:
-- block: hero
-  content:
-    title: Teaching & Mentoring
-    text: ''
-  design:
-    theme: minimal
-    background: {}
-
+  - block: hero
+    content:
+      title: Teaching & Mentoring
+      text: ""
+    design:
+      theme: minimal
+      background: {}
+      
   - block: markdown
     content:
       title: ''
@@ -53,8 +53,8 @@ sections:
         - **Instructor, Wisconsin Rocks Program** (Spring 2014; Fall 2014; Spring 2015)  
           1-hour geology outreach for K–8; multiple deliveries (~100 students).
     design:
-      container: full          # let the block fill the page width
-      css_class: teaching-wide prose
+      container: wide
+      css_class: prose max-w-6xl mx-auto
       background: {}
 
 ---
