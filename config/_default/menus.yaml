@@ -24,6 +24,6 @@ main:
     url: /teaching/
     weight: 14
 
-  - name: I Dig It
+  - name: Library
     url: /recommendations
     weight: 15

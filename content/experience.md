@@ -23,13 +23,11 @@ sections:
       title: Honors & Awards
       username: admin
     design:
-      is_list: true
-
+      view: list
   - block: resume-awards
     content:
       title: Professional Credentials
-      username: ""
-      items:
+      awards:
         - title: Professional Engineer—Civil (AK)
           awarder: License CE 199699
           date: '2022-01-01'
@@ -49,13 +47,12 @@ sections:
           awarder: Credential 0011101313
           date: '2020-01-01'
     design:
-      is_list: true
+      view: list
 
   - block: resume-awards
     content:
       title: Service & Leadership
-      username: ""
-      items:
+      awards:
         - title: Journal Peer Reviewer
           awarder: ASCE Journal of Geotechnical and Geoenvironmental Engineering; Earthquake Spectra; DFI Journal
           date: ''
@@ -72,7 +69,7 @@ sections:
           awarder: Seattle, WA
           date: '2024-01-01'
         - title: University Outreach Coordinator, EERI Student Leadership Committee
-          awarder: "EERI Student Leadership Committee"   # <-- fixed
+          awarder: EERI Student Leadership Committee
           date: '2024-01-01'
         - title: EERI Student Chapter President
           awarder: University of Washington
@@ -116,8 +113,7 @@ sections:
   - block: resume-awards
     content:
       title: Professional Development
-      username: ""
-      items:
+      awards:
         - title: Learning from Earthquakes Travel Study
           awarder: Earthquake Engineering Research Institute
           date: '2025-01-01'
@@ -165,6 +161,5 @@ sections:
           date: '2018-01-01'
     design:
       is_list: true
-
 
 ---

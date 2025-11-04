@@ -76,9 +76,9 @@ sections:
   - block: collection
     id: news
     content:
-      title: I Dig It
-      subtitle: Geotech-adjacent recommendations that I have recently enjoyed.
-      text: ''
+      title: Library
+      subtitle: 
+      text: 'Geotech-adjacent recommendations that I have recently enjoyed.'
       # Page type to display. E.g. post, talk, publication...
       page_type: blog
       # Choose how many pages you would like to display (0 = all pages)
