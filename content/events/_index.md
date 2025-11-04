@@ -5,7 +5,7 @@ cms_exclude: true
 
 # View
 type: event
-view: compact
+view: citation
 
 cascade:
   - _target:

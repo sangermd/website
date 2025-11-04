@@ -72,7 +72,7 @@ sections:
       sort_ascending: false
       count: 5
     design:
-      view: compact
+      view: citation
   - block: collection
     id: news
     content:
