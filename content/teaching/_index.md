@@ -46,4 +46,9 @@ sections:
           1-hour geology outreach for K–8; multiple deliveries (~100 students).
     design:
       background: {}
+      columns: '1'
+      spacing: '5rem'
+      # Take full width
+      css_class: hbx-pt-0 hbx-pb-0
+      
 ---
