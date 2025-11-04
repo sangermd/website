@@ -1,6 +1,5 @@
 ---
 title: Library
-summary: Geotech-adjacent books, podcasts, and videos I’ve enjoyed recently.
 type: landing
 
 sections:
