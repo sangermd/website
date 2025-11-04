@@ -1,6 +1,6 @@
 ---
-title: Courses
-summary: My courses
+title: Teaching and Mentoring
+summary: Teaching and Mentoring
 type: landing
 
 cascade:
@@ -14,9 +14,9 @@ sections:
   - block: collection
     id: courses
     content:
-      title: Courses
+      title: Teaching and Mentoring
       filters:
-        tag: Course
+        tag: Teaching
         kinds:
           - section
     design:

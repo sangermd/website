@@ -20,8 +20,8 @@ main:
     url: /events/
     weight: 13
 
-  - name: Courses
-    url: /courses/
+  - name: Teaching
+    url: /teaching/
     weight: 14
 
   - name: I Dig It
