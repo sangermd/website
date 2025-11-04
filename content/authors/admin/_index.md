@@ -98,7 +98,7 @@ work:
     company_logo: ''
     date_start: 2024-10-01
     date_end: 2025-09-01
-  - position: Geotechnical Engineer Intern
+  - position: Geotechnical Engineer
     company_name: Shannon & Wilson, Inc.
     company_logo: ''
     date_start: 2019-07-17
