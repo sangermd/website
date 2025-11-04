@@ -2,7 +2,6 @@
 title: "Video: The Future of Scientific Code in the Era of Generative AI"
 date: 2025-08-25
 summary: Empirical look at how scientists use generative AI coding tools—how it helps, where it strains code quality, and what it means for research integrity.
-tags: ['video', 'AI', 'data science']
 draft: false
 
 links:
