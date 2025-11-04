@@ -2,6 +2,7 @@
 title: Library
 type: landing
 
+
 sections:
   - block: markdown
     content:
@@ -25,4 +26,8 @@ sections:
     design:
       view: card
       background: {}
+cascade:
+  - _target:
+      path: /recommendations/**
+    share: false
 ---
