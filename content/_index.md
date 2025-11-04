@@ -77,7 +77,7 @@ sections:
     id: library
     content:
       title: From My Library
-      text: 'Recent geotech and geotech-adjacent books, podcasts, and videos I’ve enjoyed.'
+      text: 'Books, videos, podcasts, and other resources that I have found interesting, enjoyable, and somewhat relevant to my work recently.'
       filters:
         folders:
           - recommendations     # ← pull from the new section

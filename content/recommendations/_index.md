@@ -7,7 +7,7 @@ sections:
     content:
       title: From My Library
       text: |
-        Books, videos, podcasts, and other resources that I've found interesting, enjoyable, and somewhat relevant to my work recently.
+        Books, videos, podcasts, and other resources that I have found interesting, enjoyable, and somewhat relevant to my work recently.
     design:
       background: {}
 
