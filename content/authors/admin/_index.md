@@ -84,7 +84,7 @@ education:
     date_start: 2013-09-01
     date_end: 2017-12-31
     summary: |
-      Certificate in Engineering for Energy Sustainability  
+      Certificate in Engineering for Energy Sustainability; 
       Certificate in Environmental Studies
 
 work:
