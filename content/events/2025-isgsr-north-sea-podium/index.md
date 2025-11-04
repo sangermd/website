@@ -1,7 +1,7 @@
 ---
 title: "AI-driven seismic velocity modeling in the North Sea: using onshore data to predict offshore conditions"
 authors: ["Morgan D. Sanger", "B. Carlton", "Z. Liu", "B. W. Maurer"]
-date: 2025-8-27
+date: 2025-08-27
 publishDate: 2025-08-27
 event: "9th International Symposium for Geotechnical Safety and Risk (ISGSR)"
 location: "Oslo, Norway"

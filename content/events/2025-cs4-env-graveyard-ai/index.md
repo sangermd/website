@@ -1,7 +1,7 @@
 ---
 title: "Lessons from the graveyard: resurrecting AI for geohazard prediction in a riskier world"
 authors: ["B. W. Maurer", "Morgan D. Sanger"]
-date: 2025-5-01
+date: 2025-05-01
 publishDate: 2025-05-01
 event: "CS4 the Environment Spring Symposium"
 location: "Seattle, Washington"
