@@ -6,24 +6,22 @@ type: landing
 design:
   spacing: '5rem'
 
-# Note: `username` refers to the user's folder name in `content/authors/`
-
-# Page sections
 sections:
   - block: resume-experience
     content:
       username: admin
     design:
-      # Hugo date format
       date_format: 'January 2006'
-      # Education or Experience section first: Education first = true
       is_education_first: true
+      background: {}
+
   - block: resume-awards
     content:
       title: Honors & Awards
       username: admin
     design:
-      view: citation-list  
+      is_list: true
+      background: {}
 
   - block: markdown
     content:
@@ -37,6 +35,8 @@ sections:
         - LEED AP BD+C, 0011101313 (2020)
     design:
       columns: 1
+      background: {}
+
   - block: markdown
     content:
       title: Service & Leadership
@@ -61,7 +61,7 @@ sections:
         - Eva the Engineer K-12 Outreach Coordinator & Instructor, Madison, WI (2015–2017)  
         - Wisconsin Rocks K-12 Outreach Coordinator & Instructor, Madison, WI (2015–2016)
     design:
-      # css_class: prose max-w-none
+      background: {}
 
   - block: markdown
     content:
@@ -83,5 +83,5 @@ sections:
         - Making the Case for Sustainable Infrastructure, American Society of Civil Engineers (2020)  
         - Morgridge Entrepreneurial Bootcamp, University of Wisconsin–Madison (2018)
     design:
-      # css_class: prose max-w-none
+      background: {}
 ---
