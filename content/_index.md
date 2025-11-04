@@ -77,7 +77,7 @@ sections:
     id: library
     content:
       title: Library
-      text: 'Geotech-adjacent recommendations I’ve enjoyed recently.'
+      text: 'Geotech-ish recommendations I’ve enjoyed recently.'
       filters:
         folders:
           - recommendations     # ← pull from the new section
