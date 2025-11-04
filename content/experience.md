@@ -124,10 +124,10 @@ sections:
         - title: Preparing Future Faculty 2025 Workshop
           awarder: Auburn University
           date: '2025-01-01'
-        - title: AI-Teaching: Using AI to Advance Learning
+        - title: "AI+Teaching: Using AI to Advance Learning"
           awarder: University of Washington
           date: '2025-01-01'
-        - title: Teaching-UW: Strategies for Teaching Assistants
+        - title: "Teaching@UW: Strategies for Teaching Assistants"
           awarder: University of Washington
           date: '2025-01-01'
         - title: NASA Earth Sciences & UW Hackweek
