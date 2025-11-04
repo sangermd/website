@@ -25,5 +25,5 @@ main:
     weight: 14
 
   - name: Library
-    url: /recommendations
+    url: /recommendations/
     weight: 15

@@ -3,7 +3,6 @@ title: Teaching & Mentoring
 summary: Teaching & Mentoring
 type: landing
 
-# Keep it simple: one markdown block that renders as a list
 sections:
   - block: markdown
     content:
@@ -26,7 +25,7 @@ sections:
         ## University of Wisconsin–Madison
 
         - **Head Teaching Assistant, CIVENGR 330: Soil Mechanics** (Fall 2018; Spring 2019)  
-          Prepared lab equipment and delivered lectures for 3-hr lab sessions each week; oversaw lab curriculum, planning, and resources; organized and managed other TAs; coordinated with faculty; graded assignments and exams; held office hours (~25 students).
+          Prepared lab equipment and delivered lectures for 3-hr lab sessions each week; oversaw lab curriculum, planning, and resources; managed TAs; coordinated with faculty; graded assignments and exams; held office hours (~25 students).
 
         - **Teaching Assistant, CIVENGR 330: Soil Mechanics** (Spring 2018)  
           Prepared lab equipment and delivered lectures for 3-hr lab sessions each week; graded assignments and exams; held office hours (~25 students).
@@ -44,11 +43,10 @@ sections:
           Graded assignments and exams (~100 students).
 
         - **Instructor, Eva the Engineer Program** (Spring 2017; Fall 2017; Spring 2018)  
-          Developed a 12-week curriculum on sustainability in civil engineering including presentations, hands-on activities, and field trips to promote STEM careers to middle school girls (~75 students).
+          Developed a 12-week curriculum on sustainability in civil engineering with presentations, hands-on activities, and field trips to promote STEM for middle school girls (~75 students).
 
         - **Instructor, Wisconsin Rocks Program** (Spring 2014; Fall 2014; Spring 2015)  
-          Developed a 1-hour outreach program on Wisconsin geology for K-8 students including a presentation and hands-on activities; taught several times (~100 students).
+          Developed a 1-hour outreach program on Wisconsin geology for K–8 students; taught several times (~100 students).
     design:
-      # Optional niceties:
-      # css_class: prose max-w-none
+      background: {}
 ---
