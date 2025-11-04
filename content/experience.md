@@ -28,6 +28,7 @@ sections:
   - block: resume-awards
     content:
       title: Professional Credentials
+      username: ""
       items:
         - title: Professional Engineer—Civil (AK)
           awarder: License CE 199699
@@ -53,6 +54,7 @@ sections:
   - block: resume-awards
     content:
       title: Service & Leadership
+      username: ""
       items:
         - title: Journal Peer Reviewer
           awarder: ASCE Journal of Geotechnical and Geoenvironmental Engineering; Earthquake Spectra; DFI Journal
@@ -114,6 +116,7 @@ sections:
   - block: resume-awards
     content:
       title: Professional Development
+      username: ""
       items:
         - title: Learning from Earthquakes Travel Study
           awarder: Earthquake Engineering Research Institute
