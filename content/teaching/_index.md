@@ -4,13 +4,14 @@ summary: Teaching & Mentoring
 type: landing
 
 sections:
-  - block: heading
-    content:
-      title: Teaching & Mentoring
-      subtitle: ''        # optional
-      text: ''            # optional
-    design:
-      background: {}
+- block: hero
+  content:
+    title: Teaching & Mentoring
+    text: ''
+  design:
+    theme: minimal
+    background: {}
+
   - block: markdown
     content:
       title: ''
