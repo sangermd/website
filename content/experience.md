@@ -41,9 +41,8 @@ sections:
     content:
       title: Service & Leadership
       text: |
-        **Journal Peer Reviewer:** ASCE Journal of Geotechnical and Geoenvironmental Engineering; Earthquake Spectra; DFI Journal.  
-        **Conference Peer Reviewer:** 2025 Geo-Extreme; 2025 NHERI GSC Mini-Conference; 2025 DFI 50th Annual Conference on Deep Foundations; 2025 International Symposium for Geotechnical Safety and Risk; 2025 Geotechnical Frontiers; 2024 NHERI GSC Mini-Conference; 2022 Geo-Congress; 2022 DFI 47th Annual Conference on Deep Foundations.
-
+        - **Journal Peer Reviewer:** ASCE Journal of Geotechnical and Geoenvironmental Engineering; Earthquake Spectra; DFI Journal.  
+        - **Conference Peer Reviewer:** 2025 Geo-Extreme; 2025 NHERI GSC Mini-Conference; 2025 DFI 50th Annual Conference on Deep Foundations; 2025 International Symposium for Geotechnical Safety and Risk; 2025 Geotechnical Frontiers; 2024 NHERI GSC Mini-Conference; 2022 Geo-Congress; 2022 DFI 47th Annual Conference on Deep Foundations.
         - AI in the STEM Workforce Panelist, Seattle University (2025)  
         - INSIGHT High School STEAM Outreach, Seattle (2024)  
         - Orcas Elementary School Geology Outreach, Seattle (2024)  
