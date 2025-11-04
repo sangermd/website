@@ -4,18 +4,12 @@ summary: Teaching & Mentoring
 type: landing
 
 sections:
-  - block: hero
-    content:
-      title: Teaching & Mentoring
-      text: ""
-    design:
-      theme: minimal
-      background: {}
-      
   - block: markdown
     content:
-      title: ''
+      title: ""
       text: |
+        <h1 class="teaching-title">Teaching & Mentoring</h1>
+
         ## University of Washington
 
         - **Teaching Assistant, CIVENGR 367: Soil Mechanics** (Spring 2026)  
@@ -53,8 +47,7 @@ sections:
         - **Instructor, Wisconsin Rocks Program** (Spring 2014; Fall 2014; Spring 2015)  
           1-hour geology outreach for K–8; multiple deliveries (~100 students).
     design:
-      container: wide
-      css_class: prose max-w-6xl mx-auto
+      container: full               # let our CSS create the centered wide column
+      css_class: teaching-wide prose
       background: {}
-
 ---

@@ -1,3 +1,45 @@
-/* Make teaching page nice and wide */
-.hb-block.teaching-wide .container { max-width: 1200px; }  /* widen block container */
-.hb-block.teaching-wide .prose { max-width: none; }        /* remove prose cap */
+/* ===== TEACHING PAGE LAYOUT (wide + centered) ===== */
+
+/* Make the teaching block span the page */
+.hb-block.teaching-wide { width: 100%; }
+
+/* Let the outer container go full width, but we will center the inner content ourselves */
+.hb-block.teaching-wide > .container {
+  width: 100%;
+  max-width: none;
+  margin: 0;               /* kill any auto-centering on the outer wrapper */
+  padding: 0;              /* no extra padding—inner wrapper will handle it */
+}
+
+/* Create a real content column inside the block */
+.hb-block.teaching-wide .hb-markdown {
+  max-width: 1200px;       /* <- increase or decrease as you like: 1200–1400px is comfy */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;      /* gutter */
+  padding-right: 1rem;
+}
+
+/* Remove “skinny prose” caps inside the markdown */
+.hb-block.teaching-wide .prose,
+.hb-block.teaching-wide .max-w-prose,
+.hb-block.teaching-wide .max-w-3xl,
+.hb-block.teaching-wide .max-w-4xl {
+  max-width: none !important;
+}
+
+/* ===== TEACHING PAGE H1 (match big listing titles) ===== */
+/* Bold, large, slightly tight tracking—similar to other list pages */
+.teaching-title {
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  margin: 0 0 1rem 0;
+  font-size: 2rem;         /* mobile */
+}
+@media (min-width: 768px) {
+  .teaching-title { font-size: 2.75rem; }  /* tablet+ */
+}
+@media (min-width: 1024px) {
+  .teaching-title { font-size: 3rem; }     /* desktop */
+}
