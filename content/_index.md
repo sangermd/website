@@ -74,31 +74,20 @@ sections:
     design:
       view: citation
   - block: collection
-    id: news
+    id: library
     content:
       title: Library
-      subtitle: 
-      text: 'Geotech-adjacent recommendations that I have recently enjoyed.'
-      # Page type to display. E.g. post, talk, publication...
-      page_type: blog
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 5
-      # Filter on criteria
+      text: 'Geotech-adjacent recommendations I’ve enjoyed recently.'
       filters:
-        author: ''
-        category: ''
-        tag: ''
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ''
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
+        folders:
+          - recommendations     # ← pull from the new section
+      sort_by: date
+      sort_ascending: false
+      count: 5
     design:
-      # Choose a layout view
-      view: card
+      view: article-list       # ← list, not cards
+      background: {}
+
       # Reduce spacing
       spacing:
         padding: [0, 0, 0, 0]
