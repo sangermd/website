@@ -185,4 +185,4 @@ awards:
 
 ---
 
-Morgan Sanger, P.E. is a PhD student in geotechnical engineering at the University of Washington. Her doctoral research includes applying AI/ML to large geospatial and geotechnical data sets for improved earthquake hazard modeling and risk management. 
+My name is Morgan, and I am a PhD student in geotechnical engineering at the University of Washington. My doctoral research includes applying AI/ML to large geospatial and geotechnical data sets for improved earthquake hazard modeling and risk management. Thanks for visiting my site!

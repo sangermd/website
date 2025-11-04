@@ -18,7 +18,7 @@ sections:
         text: Download CV
         url: uploads/CV_Sanger.pdf
       headings:
-        about: '   '
+        about: 'Hello, and welcome.'
         education: ''
         interests: ''
         show_icon: false

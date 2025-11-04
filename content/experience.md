@@ -23,8 +23,8 @@ sections:
       title: Honors & Awards
       username: admin
     design:
-      # Simple list or grid view: list = true
       is_list: true
+
   - block: resume-awards
     content:
       title: Professional Credentials
@@ -47,6 +47,8 @@ sections:
         - title: LEED AP BD+C
           awarder: Credential 0011101313
           date: '2020-01-01'
+    design:
+      is_list: true
 
   - block: resume-awards
     content:
@@ -68,7 +70,7 @@ sections:
           awarder: Seattle, WA
           date: '2024-01-01'
         - title: University Outreach Coordinator, EERI Student Leadership Committee
-          awarder: 
+          awarder: "EERI Student Leadership Committee"   # <-- fixed
           date: '2024-01-01'
         - title: EERI Student Chapter President
           awarder: University of Washington
@@ -106,6 +108,8 @@ sections:
         - title: Wisconsin Rocks K-12 Outreach Coordinator & Instructor
           awarder: Madison, WI
           date: '2016-01-01'
+    design:
+      is_list: true
 
   - block: resume-awards
     content:
@@ -156,5 +160,8 @@ sections:
         - title: Morgridge Entrepreneurial Bootcamp
           awarder: University of Wisconsin–Madison
           date: '2018-01-01'
+    design:
+      is_list: true
+
 
 ---
