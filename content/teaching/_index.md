@@ -45,10 +45,7 @@ sections:
         - **Instructor, Wisconsin Rocks Program** (Spring 2014; Fall 2014; Spring 2015)  
           1-hour geology outreach for K–8; multiple deliveries (~100 students).
     design:
-      css_class: prose max-w-5xl mx-auto
-      # Reduce spacing
-      spacing:
-        padding: [0, 0, 0, 0]
+      css_class: teaching-wide prose
       background: {}
 
 ---
