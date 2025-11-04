@@ -98,10 +98,10 @@ work:
     company_logo: ''
     date_start: 2024-10-01
     date_end: 2025-09-01
-  - position: Research & Teaching Assistant
+  - position: Geotechnical Engineer Intern
     company_name: Shannon & Wilson, Inc.
     company_logo: ''
-    date_start: 2022-09-01
+    date_start: 2019-07-17
     date_end: 2023-08-31
   - position: Research & Teaching Assistant
     company_name: University of Wisconsin-Madison
