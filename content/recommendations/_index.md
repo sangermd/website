@@ -21,6 +21,6 @@ sections:
       sort_ascending: false
       count: 20
     design:
-      view: article-list   # ← simple list
+      view: compact
       background: {}
 ---
