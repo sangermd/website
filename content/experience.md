@@ -37,4 +37,5 @@ sections:
         - LEED AP BD+C, 0011101313 (2020)
     design:
       columns: 1
-  ---
+
+---
