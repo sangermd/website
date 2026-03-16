@@ -1,7 +1,7 @@
 ---
 title: "The Spatial Stack by Matt Forrest"
 date: 2026-02-11
-summary: This podcast covers generally interesting topics related to geospatial data and geospatial machine learning, with a particularly relevant episode recently - The "GPT Moment" for Earth: Moving from Computer Vision to Large Earth Models.
+summary: This podcast covers generally interesting topics related to geospatial data and geospatial machine learning, with a particularly relevant episode recently - The "GPT Moment" for Earth, Moving from Computer Vision to Large Earth Models.
 draft: false
 
 links:
