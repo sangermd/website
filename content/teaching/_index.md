@@ -9,8 +9,14 @@ sections:
       text: |
         ## University of Washington
 
-        - **Teaching Assistant, CIVENGR 367: Soil Mechanics** (Spring 2026)  
-          Preparing lab equipment and delivering lectures for four 3-hr lab sessions each week; grading assignments and exams; holding office hours (~100 students).
+        - **Teaching Assistant, CEE 415: Machine Learning for Civil Engineers** (Spring 2026)  
+          Prepared tutorials and delivered lectures for 2-hr lab sessions each week; graded assignments and exams; held office hours (~20 students).
+
+        - **Grader, ENGR 521: Machine Learning for Engineering Project** (Spring 2026)  
+          Graded assignments and projects (~50 students).
+
+        - **Guest Lecturer, CESG 599: Soil Dynamics and Geotechnical Earthquake Engineering** (Winter 2026)  
+          Delivered lecture on seismic slope stability analyses (~20 students).
 
         - **Mentor, Dept. of Civil & Environmental Engineering** (Summer 2023; Summer 2025; Fall 2025)  
           Supervised undergraduate research assistants, 10–20 hours/week (2 students).
@@ -24,19 +30,22 @@ sections:
         ## University of Wisconsin–Madison
 
         - **Head Teaching Assistant, CIVENGR 330: Soil Mechanics** (Fall 2018; Spring 2019)  
-          Ran labs; oversaw lab curriculum and TAs; coordinated with faculty; graded; held office hours (~25 students).
+          Oversaw lab curriculum and TAs; coordinated with faculty; prepared eqiupment and delivered lectures for 3-hr lab session each week; graded assignments and exams; held office hours (~25 students).
 
         - **Teaching Assistant, CIVENGR 330: Soil Mechanics** (Spring 2018)  
-          Ran labs; graded; office hours (~25 students).
+          Prepared eqiupment and delivered lectures for 3-hr lab session each week; graded assignments and exams; held office hours (~25 students).
 
         - **Teaching Assistant, CIVENGR 291: Problem Solving with Computer Tools** (Spring 2018)  
-          Ran labs; graded; office hours (~25 students).
+          Prepared eqiupment and delivered lectures for 3-hr lab session each week; graded assignments and exams; held office hours (~25 students).
 
         - **Mentor, Dept. of Civil & Environmental Engineering** (Summer 2018; Fall 2018; Spring 2019)  
           Supervised undergraduate research assistants (~20 hours/week; 2 students).
 
-        - **Grader, GEO 455: Advanced Structural Geology** (Spring 2019) — graded (~100 students)  
-        - **Grader, GEO 202: Introduction to Structural Geology** (Fall 2018) — graded (~100 students)
+        - **Grader, GEO 455: Advanced Structural Geology** (Spring 2019) 
+          Graded assignments and exams (~100 students).
+
+        - **Grader, GEO 202: Introduction to Structural Geology** (Fall 2018) 
+          Graded assignments and exams (~100 students).
 
         - **Instructor, Eva the Engineer Program** (Spring 2017; Fall 2017; Spring 2018)  
           12-week sustainability-in-CE curriculum; talks, hands-on, field trips; middle-school girls (~75 students).

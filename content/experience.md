@@ -41,8 +41,10 @@ sections:
     content:
       title: Service & Leadership
       text: |
+        - Research Computing Club Officer, University of Washington (2025-Present)
         - **Journal Peer Reviewer:** ASCE Journal of Geotechnical and Geoenvironmental Engineering; Earthquake Spectra; DFI Journal.  
         - **Conference Peer Reviewer:** 2025 Geo-Extreme; 2025 NHERI GSC Mini-Conference; 2025 DFI 50th Annual Conference on Deep Foundations; 2025 International Symposium for Geotechnical Safety and Risk; 2025 Geotechnical Frontiers; 2024 NHERI GSC Mini-Conference; 2022 Geo-Congress; 2022 DFI 47th Annual Conference on Deep Foundations.
+        - Graduate School Panel for Undergraduates Moderator, University of Washington (2026) 
         - AI in the STEM Workforce Panelist, Seattle University (2025)  
         - INSIGHT High School STEAM Outreach, Seattle (2024)  
         - Orcas Elementary School Geology Outreach, Seattle (2024)  
@@ -66,6 +68,7 @@ sections:
     content:
       title: Professional Development
       text: |
+        - End-to-End AI for Science Bootcamp, National Energy Research Scientific Computing Center (2025)
         - Learning from Earthquakes Travel Study, Earthquake Engineering Research Institute (2025)  
         - NextProf Nexus Workshop, University of California–Berkeley / University of Michigan / Georgia Tech (2025)  
         - Preparing Future Faculty 2025 Workshop, Auburn University (2025)  
