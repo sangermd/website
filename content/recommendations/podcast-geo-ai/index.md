@@ -1,15 +1,15 @@
 ---
-title: "The Big Dig by NPR"
-date: 2025-09-18
-summary: NPR’s deep dive into Boston’s Central Artery/Tunnel Project—engineering ambition, risk, and what megaprojects teach us about accountability and infrastructure.
+title: "The Spatial Stack by Matt Forrest"
+date: 2026-02-11
+summary: This podcast covers generally interesting topics related to geospatial data and geospatial machine learning, with a particularly relevant episode recently: The "GPT Moment" for Earth: Moving from Computer Vision to Large Earth Models.
 draft: false
 
 links:
   - icon: radio
-    name: Listen on NPR
-    url: https://www.npr.org/podcasts/1205152723/the-big-dig
+    name: Listen on Spotify
+    url: https://open.spotify.com/episode/6vl9JQXFFue9MaYcT57tLT
 image:
-  caption: "Podcast cover: *The Big Dig* by NPR"
+  caption: "Podcast cover: *The Spatial Stack* by Matt Forrest"
   focal_point: Center
   preview_only: false
 ---
