@@ -34,15 +34,59 @@
 
 <div class="flex flex-col items-center">
 
-  {{ partial "functions/render_view" (dict "fragment" "start" "page" $block "item" . "view" $view "config" $config) }}
+  {{ if eq .Type "publication" }}
+    {{/* LOCAL ADDITION: group publications under subheadings by publication_types,
+         instead of one flat list. Order and grouping fixed by $group_order /
+         $type_to_group below, not alphabetical. Ungrouped/unrecognized
+         publication_types fall into "Other". */}}
+    {{ $group_order := slice "Journal Articles" "Conference Papers & Editorials" "Map Products, Datasets, & Code Repositories" "Technical Reports" "Thesis" "Other" }}
+    {{ $type_to_group := dict
+        "Journal Article" "Journal Articles"
+        "Conference Paper" "Conference Papers & Editorials"
+        "Editorial" "Conference Papers & Editorials"
+        "Dataset" "Map Products, Datasets, & Code Repositories"
+        "Code Repository" "Map Products, Datasets, & Code Repositories"
+        "Supplemental Materials" "Map Products, Datasets, & Code Repositories"
+        "Report" "Technical Reports"
+        "MS Thesis" "Thesis"
+    }}
+    {{ $all_pages := .Pages.ByDate.Reverse }}
 
-  {{ range $index, $item := $paginator.Pages }}
-  {{ partial "functions/render_view" (dict "page" . "item" . "view" $view "index" $index "config" $config) }}
-  {{end}}
+    {{ partial "functions/render_view" (dict "fragment" "start" "page" $block "item" . "view" $view "config" $config) }}
 
-  {{ partial "functions/render_view" (dict "fragment" "end" "page" $block "item" . "view" $view) }}
+    {{ range $group_order }}
+      {{ $group_name := . }}
+      {{ $group_pages := slice }}
+      {{ range $all_pages }}
+        {{ $pub_type := index (.Params.publication_types | default (slice "")) 0 }}
+        {{ $this_group := index $type_to_group $pub_type | default "Other" }}
+        {{ if eq $this_group $group_name }}
+          {{ $group_pages = $group_pages | append . }}
+        {{ end }}
+      {{ end }}
+      {{ if $group_pages }}
+        <h2 class="w-full text-left mt-10 mb-2 first:mt-0">{{ $group_name }}</h2>
+        {{ range $index, $item := $group_pages }}
+          {{ partial "functions/render_view" (dict "page" . "item" . "view" $view "index" $index "config" $config) }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
 
-  {{ partial "components/paginator" . }}
+    {{ partial "functions/render_view" (dict "fragment" "end" "page" $block "item" . "view" $view) }}
+
+  {{ else }}
+
+    {{ partial "functions/render_view" (dict "fragment" "start" "page" $block "item" . "view" $view "config" $config) }}
+
+    {{ range $index, $item := $paginator.Pages }}
+    {{ partial "functions/render_view" (dict "page" . "item" . "view" $view "index" $index "config" $config) }}
+    {{end}}
+
+    {{ partial "functions/render_view" (dict "fragment" "end" "page" $block "item" . "view" $view) }}
+
+    {{ partial "components/paginator" . }}
+
+  {{ end }}
 
 </div>
 

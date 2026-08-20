@@ -1,0 +1,101 @@
+{{/* LOCAL OVERRIDE of the theme's page_links partial: renders attachment links (PDF,
+     DOI, Cite, Code, Dataset, Slides, Video, ...) as colored pill buttons instead of
+     small plain-text uppercase links, using the site owner's brand palette - one color
+     per link type, so the different link kinds are easy to tell apart at a glance. */}}
+{{ $is_list := .is_list }}
+{{ $page := .page }}
+
+{{ $built := partial "functions/build_links" (dict "page" $page "is_list" $is_list) }}
+
+{{ $ctx := cond $is_list "list" "page" }}
+
+{{ $fallbackByKey := dict
+  "btn_pdf" "PDF"
+  "btn_preprint" "Preprint"
+  "btn_doi" "DOI"
+  "btn_code" "Code"
+  "btn_dataset" "Dataset"
+  "btn_model" "Model"
+  "btn_slides" "Slides"
+  "btn_video" "Video"
+  "btn_poster" "Poster"
+  "btn_project" "Project"
+  "btn_site" "Site"
+  "btn_source" "Source Document"
+  "btn_canonical" "Canonical"
+  "btn_crosspost" "Crosspost"
+  "btn_discussion" "Discussion"
+  "btn_event" "Event"
+  "btn_calendar" "Calendar"
+  "btn_registration" "Registration"
+  "btn_demo" "Demo"
+  "btn_cite" "Cite"
+}}
+
+{{/* Brand palette: one color per link type. Unlisted types fall back to my_blue. */}}
+{{ $bg_by_type := dict
+  "pdf" "#9D393B"
+  "doi" "#1B587C"
+  "code" "#40445E"
+  "dataset" "#2B8160"
+  "slides" "#E26C00"
+  "video" "#604878"
+  "bibtex" "#F9ABA1"
+  "preprint" "#1B587C"
+  "conference-paper" "#1B587C"
+  "site" "#40445E"
+  "project" "#2B8160"
+  "poster" "#E26C00"
+  "source" "#40445E"
+}}
+{{ $default_bg := "#1B587C" }}
+{{ $light_bg_types := slice "bibtex" }}
+
+{{ $size_classes := cond $is_list "px-3 py-1.5 text-xs gap-1.5" "px-4 py-2 text-sm gap-2" }}
+
+{{ range $built }}
+  {{ if in .contexts $ctx }}
+    {{ $url := .url | default "" }}
+    {{ $scheme := (urls.Parse $url).Scheme }}
+    {{ $target := "" }}
+    {{ $rel := slice }}
+    {{ with .rel }}{{ $rel = . }}{{ end }}
+    {{ if not $scheme }}
+      {{ with ($page.Resources.GetMatch $url) }}
+        {{ $url = .RelPermalink }}
+      {{ else }}
+        {{ $url = $url | relURL }}
+      {{ end }}
+    {{ else if in (slice "http" "https") $scheme }}
+      {{ $target = "target=\"_blank\"" }}
+      {{ $rel = $rel | append "noopener" }}
+    {{ end }}
+
+    {{ $label := .label }}
+    {{ with .labelKey }}
+      {{ if not $label }}
+        {{ $label = (i18n .) | default (index $fallbackByKey .) | default "Link" }}
+      {{ end }}
+    {{ end }}
+    {{ if not $label }}
+      {{ $label = "Link" }}
+    {{ end }}
+
+    {{ $bg := index $bg_by_type .type | default $default_bg }}
+    {{ $text_color := cond (in $light_bg_types .type) "#40445E" "#ffffff" }}
+    {{ $btn_classes := printf "hb-attachment-btn inline-flex items-center %s mr-2 mb-2 rounded-full font-semibold uppercase tracking-wide no-underline shadow-sm transition-all hover:opacity-80 hover:shadow-md" $size_classes }}
+    {{ $btn_style := printf "background-color: %s; color: %s;" $bg $text_color }}
+
+    {{ if eq .type "bibtex" }}
+      <button class="{{ $btn_classes }} js-cite-clipboard cursor-pointer" style="{{ $btn_style | safeCSS }}" type="button" data-filename="{{ $url }}">
+        {{ partial "functions/get_icon" (dict "name" (.icon | default "hero/document-duplicate") "attributes" "style=\"height: 1em\" class='inline-block'") }}
+        <span>{{ $label }}</span>
+      </button>
+    {{ else }}
+      <a class="{{ $btn_classes }}" style="{{ $btn_style | safeCSS }}" href="{{ $url | safeURL }}" {{ $target | safeHTMLAttr }} {{ with $rel }}rel="{{ delimit . " " }}"{{ end }}>
+        {{ partial "functions/get_icon" (dict "name" (.icon | default "hero/link") "attributes" "style=\"height: 1em\" class='inline-block'") }}
+        {{ $label }}
+      </a>
+    {{ end }}
+  {{ end }}
+{{ end }}

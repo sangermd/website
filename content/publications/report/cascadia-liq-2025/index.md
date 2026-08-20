@@ -10,6 +10,6 @@ publication_types: ["Report"]
 publication: "Cascadia Region Earthquake Science Center (CRESCENT) Open Documents Library"
 featured: false
 # tags: ["Liquefaction", "Geospatial", "USGS"]
-doi: ""
+doi: https://doi.org/10.5281/zenodo.17237507
 url_pdf: https://doi.org/10.5281/zenodo.17237507
 ---
