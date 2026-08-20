@@ -83,7 +83,7 @@
 
         {{/* Name and Role - Centered */}}
         <div class="space-y-3">
-          <h1 class="text-5xl lg:text-6xl font-black text-gray-900 dark:text-white leading-tight">
+          <h1 class="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 dark:text-white tracking-tight">
             {{- if $person.name_pronunciation -}}
               <ruby>
                 <rb>{{ $person_page.Title }}</rb>
@@ -213,7 +213,7 @@
             <div class="flex-shrink-0 w-12 h-12 bg-primary-100 dark:bg-primary-900/50 rounded-full flex items-center justify-center">
               {{ partial "functions/get_icon" (dict "name" "briefcase" "attributes" "class='w-6 h-6 text-primary-600 dark:text-primary-400'") }}
             </div>
-            {{ $service_heading := $block.content.headings.service | default "Service & Leadership" }}
+            {{ $service_heading := $block.content.headings.service | default "Current Service Leadership Roles" }}
             <h3 class="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 dark:text-white tracking-tight">{{ $service_heading | markdownify }}</h3>
           </div>
           <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
@@ -245,7 +245,7 @@
               {{ partial "functions/get_icon" (dict "name" "sparkles" "attributes" "class='w-6 h-6 text-primary-600 dark:text-primary-400'") }}
             </div>
             {{ $interests_heading := $block.content.headings.interests | default (i18n "interests") }}
-            <h3 class="text-xl font-bold text-gray-900 dark:text-white tracking-tight">{{ $interests_heading | markdownify }}</h3>
+            <h3 class="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 dark:text-white tracking-tight">{{ $interests_heading | markdownify }}</h3>
           </div>
           <div class="flex flex-wrap gap-3">
             {{ range . }}

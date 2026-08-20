@@ -1,0 +1,20 @@
+{{/* Hugo Blox: Markdown */}}
+{{/* Documentation: https://hugoblox.com/blocks/ */}}
+{{/* License: https://github.com/HugoBlox/hugo-blox-builder/blob/main/LICENSE.md */}}
+{{/* LOCAL OVERRIDE: widens the content column on larger screens (upstream hardcodes max-w-prose ~65ch at all sizes, which reads narrow on desktop). Mobile is unchanged since max-w-prose already exceeds phone viewport widths. */}}
+
+{{/* Initialise */}}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $title := $block.content.title | emojify | $page.RenderString }}
+{{ $text := $block.content.text | emojify | $page.RenderString | safeHTML }}
+
+<div class="flex flex-col items-center max-w-prose md:max-w-2xl lg:max-w-4xl mx-auto gap-3 justify-center px-6">
+
+  <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">
+    {{ $title }}
+  </div>
+
+  {{/* We use DIV rather than P to support `prose` class and multiple paragraphs */}}
+  {{ with $text }}<div class="prose prose-slate lg:prose-xl dark:prose-invert max-w-prose md:max-w-2xl lg:max-w-4xl">{{ . }}</div>{{ end }}
+</div>

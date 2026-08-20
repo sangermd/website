@@ -114,7 +114,7 @@ work:
 #   Leave date_end blank for ongoing/present roles.
 service:
   - role: Secretariat
-    organization: EERI Learning from Earthquakes Virtual Earthquake Reconnaissance Team
+    organization: EERI LFE Virtual Earthquake Reconnaissance Team
     date_start: 2026-01-01
     date_end: ''
   - role: Editorial Board

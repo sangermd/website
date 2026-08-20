@@ -6,6 +6,7 @@ cms_exclude: true
 # View
 type: event
 view: citation
+pager_size: 500
 
 cascade:
   - _target:
