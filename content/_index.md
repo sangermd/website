@@ -47,24 +47,23 @@ sections:
   #   design:
   #     view: article-grid
   #     columns: 2
-  - block: collection
-    id: library
-    content:
-      title: From My Library
-      text: 'Books, videos, podcasts, and other resources that I have found interesting, enjoyable, and somewhat relevant to my work recently.'
-      filters:
-        folders:
-          - recommendations     # ← pull from the new section
-      sort_by: date
-      sort_ascending: false
-      count: 3
-    design:
-      view: card
-      background: {}
-
-      # Reduce spacing
-      spacing:
-        padding: [0, 0, 0, 0]
+  # - block: collection
+  #   id: library
+  #   content:
+  #     title: From My Library
+  #     text: 'Books, videos, podcasts, and other resources that I have found interesting, enjoyable, and somewhat relevant to my work recently.'
+  #     filters:
+  #       folders:
+  #         - recommendations
+  #     sort_by: date
+  #     sort_ascending: false
+  #     count: 3
+  #   design:
+  #     view: card
+  #     background: {}
+  #     # Reduce spacing
+  #     spacing:
+  #       padding: [0, 0, 0, 0]
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:

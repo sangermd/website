@@ -13,8 +13,8 @@ last_name: Sanger
 pronouns: she/her
 
 # Status emoji
-status: # Book
-  icon: 📖
+status: # Stack of books
+  icon: 📚
 
 # Is this the primary user of the site?
 superuser: true
@@ -108,6 +108,24 @@ work:
     company_logo: ''
     date_start: 2018-01-01
     date_end: 2019-05-31
+
+# Service & Leadership roles.
+#   Add/remove as many roles below as you like.
+#   Leave date_end blank for ongoing/present roles.
+service:
+  - role: Secretariat
+    organization: EERI Learning from Earthquakes Virtual Earthquake Reconnaissance Team
+    date_start: 2026-01-01
+    date_end: ''
+  - role: Editorial Board
+    organization: Next Generation Liquefaction Database
+    date_start: 2026-01-01
+    date_end: ''
+  - role: Research Computing Club Officer
+    organization: University of Washington
+    date_start: 2025-01-01
+    date_end: ''
+
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
