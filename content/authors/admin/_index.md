@@ -66,7 +66,7 @@ education:
     date_start: 2022-09-01
     date_end: ''
     summary: |
-      Dissertation: AI-driven geospatial modeling for regional-scale coseismic hazard and impact assessments
+      Dissertation: AI-driven geospatial modeling for regional-scale coseismic hazard and impact assessments  
       Certificate in Data Science
     # button:
     #   text: 'Read Thesis'
