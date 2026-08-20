@@ -23,7 +23,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: PhD Candidate
+role: PE | PhD Candidate
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -66,7 +66,7 @@ education:
     date_start: 2022-09-01
     date_end: ''
     summary: |
-      Dissertation: AI-driven and near-real-time modeling of natural hazards  
+      Dissertation: AI-driven geospatial modeling for regional-scale coseismic hazard and impact assessments
       Certificate in Data Science
     # button:
     #   text: 'Read Thesis'
@@ -185,4 +185,4 @@ awards:
 
 ---
 
-My name is Morgan, and I am a PhD student in geotechnical engineering at the University of Washington. My doctoral research includes applying AI/ML to large geospatial and geotechnical data sets for improved earthquake hazard modeling and risk management. Thanks for visiting my site!
+My name is Morgan, and I am a PhD candidate in geotechnical engineering at the University of Washington. My doctoral research includes applying AI/ML to large geospatial and geotechnical data sets for improved earthquake hazard modeling and risk management. Thanks for visiting my site!

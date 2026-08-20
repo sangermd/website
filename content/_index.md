@@ -16,12 +16,12 @@ sections:
       text: ''
       button:
         text: Download CV
-        url: uploads/CV_Sanger.pdf
+        url: uploads/Sanger_CV.pdf
       headings:
         about: 'Hello, and welcome.'
         education: ''
         interests: ''
-        show_icon: false
+        show_icon: true
 
     design:
       # Apply a gradient background
