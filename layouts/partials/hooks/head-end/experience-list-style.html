@@ -1,0 +1,26 @@
+<style>
+  /* Experience page: makes list-item text (Honors & Awards, Professional Credentials,
+     Service & Leadership, Professional Development) match the size/tracking/color of
+     the job- and degree-title subheadings in the Experience/Education timeline
+     (resume-experience block's per-entry <h3>). Font-weight is intentionally left
+     alone so the bold title / italic organization distinction within each bullet
+     still shows. Scoped to .hbx-subheading-list so it doesn't affect other markdown
+     blocks (Teaching, Recommendations) elsewhere on the site. */
+  .hbx-subheading-list li {
+    font-size: 1.25rem;
+    letter-spacing: -0.025em;
+    color: rgb(17 24 39);
+  }
+
+  @media (min-width: 640px) {
+    .hbx-subheading-list li { font-size: 1.5rem; }
+  }
+
+  @media (min-width: 1024px) {
+    .hbx-subheading-list li { font-size: 1.875rem; }
+  }
+
+  .dark .hbx-subheading-list li {
+    color: rgb(255 255 255);
+  }
+</style>

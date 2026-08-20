@@ -43,7 +43,10 @@ sections:
         - **Thermo Fisher Scientific STEM Scholar**, *Thermo Fisher Scientific, Madison, WI* (2013)
         - **Wisconsin Academic Excellence Scholar**, *Wisconsin Higher Educational Aid Board* (2013)
     design:
+      css_class: hbx-subheading-list
       background: {}
+      spacing:
+        padding: ['1.25rem', 0, '1.25rem', 0]
 
   - block: markdown
     content:
@@ -57,7 +60,10 @@ sections:
         - LEED AP BD+C, 0011101313 (2020)
     design:
       columns: 1
+      css_class: hbx-subheading-list
       background: {}
+      spacing:
+        padding: ['1.25rem', 0, '1.25rem', 0]
 
   - block: markdown
     content:
@@ -86,7 +92,10 @@ sections:
         - **Eva the Engineer K-12 Outreach Coordinator & Instructor**, *Madison, WI* (2015–2017)
         - **Wisconsin Rocks K-12 Outreach Coordinator & Instructor**, *Madison, WI* (2015–2016)
     design:
+      css_class: hbx-subheading-list
       background: {}
+      spacing:
+        padding: ['1.25rem', 0, '1.25rem', 0]
 
   - block: markdown
     content:
@@ -112,5 +121,8 @@ sections:
         - **Making the Case for Sustainable Infrastructure**, *American Society of Civil Engineers* (2020)
         - **Morgridge Entrepreneurial Bootcamp**, *University of Wisconsin–Madison* (2018)
     design:
+      css_class: hbx-subheading-list
       background: {}
+      spacing:
+        padding: ['1.25rem', 0, '1.25rem', 0]
 ---
