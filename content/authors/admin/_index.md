@@ -13,8 +13,8 @@ last_name: Sanger
 pronouns: she/her
 
 # Status emoji
-status: # Coffee cup
-  icon: ☕
+status: # Book
+  icon: 📖
 
 # Is this the primary user of the site?
 superuser: true

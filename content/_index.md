@@ -19,7 +19,6 @@ sections:
         url: uploads/Sanger_CV.pdf
       headings:
         about: 'Hello, and welcome.'
-        education: ''
         interests: ''
         show_icon: true
 
@@ -48,31 +47,6 @@ sections:
   #   design:
   #     view: article-grid
   #     columns: 2
-  - block: collection
-    content:
-      title: Recent Publications
-      text: ''
-      filters:
-        folders:
-          - publications
-        exclude_featured: false
-      sort_by: "date"
-      sort_ascending: false
-      count: 10
-    design:
-      view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent Presentations
-      filters:
-        folders:
-          - events
-      sort_by: "date"
-      sort_ascending: false
-      count: 5
-    design:
-      view: citation
   - block: collection
     id: library
     content:
