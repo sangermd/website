@@ -131,6 +131,12 @@ service:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
+  - title: Helene M. Overly Memorial Graduate Scholarship
+    awarder: WTS Puget Sound
+    date: '2026-01-01'
+  - title: IDEAAL DR2 Fellow
+    awarder: University of Washington Center for Disaster Resilient Communities
+    date: '2026-01-01'
   - title: Learning from Earthquakes Travel Study
     awarder: Earthquake Engineering Research Institute
     date: '2025-01-01'

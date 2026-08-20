@@ -41,7 +41,9 @@ sections:
     content:
       title: Service & Leadership
       text: |
-        - Research Computing Club Officer, University of Washington (2025-Present)
+        - **Secretariat**, EERI Learning from Earthquakes Virtual Earthquake Reconnaissance Team, 2026 - Present
+        - **Editorial Board Member**, Next Generation Liquefaction Database, 2026 - Present
+        - **Research Computing Club Officer**, University of Washington (2025-Present)
         - **Journal Peer Reviewer:** ASCE Journal of Geotechnical and Geoenvironmental Engineering; Earthquake Spectra; DFI Journal.  
         - **Conference Peer Reviewer:** 2025 Geo-Extreme; 2025 NHERI GSC Mini-Conference; 2025 DFI 50th Annual Conference on Deep Foundations; 2025 International Symposium for Geotechnical Safety and Risk; 2025 Geotechnical Frontiers; 2024 NHERI GSC Mini-Conference; 2022 Geo-Congress; 2022 DFI 47th Annual Conference on Deep Foundations.
         - Graduate School Panel for Undergraduates Moderator, University of Washington (2026) 
@@ -68,6 +70,9 @@ sections:
     content:
       title: Professional Development
       text: |
+        - Quantum Hackathon with IBM Quantum x RCC, University of Washington, 2026
+        - Investigations in Disasters and Emergencies: Advancing Applied Learning in Disaster Research Response Fellowship Workshop, University of Washington, 2026
+        - Teaching Online 101: Essentials of Effective Online and Hybrid Teaching, University of Washington, 2026
         - End-to-End AI for Science Bootcamp, National Energy Research Scientific Computing Center (2025)
         - Learning from Earthquakes Travel Study, Earthquake Engineering Research Institute (2025)  
         - NextProf Nexus Workshop, University of California–Berkeley / University of Michigan / Georgia Tech (2025)  
