@@ -11,7 +11,8 @@
 {{ $view := .Params.view | default "card" }}
 {{ $block := . }}
 
-{{ $pager_size := .Params.pager_size | default site.Config.Pagination.PagerSize }}
+{{/* 10 matches pagination.pagerSize in config/_default/hugo.yaml */}}
+{{ $pager_size := .Params.pager_size | default 10 }}
 {{ $paginator := .Paginate .Pages.ByDate.Reverse $pager_size }}
 {{ $config := dict
   "columns" (.Params.columns | default 2)
