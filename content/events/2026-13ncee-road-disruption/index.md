@@ -8,7 +8,7 @@ location: "Portland, Oregon"
 # tags: ["Podium", "Liquefaction", "Transportation", "Cascadia"]
 abstract: ""
 featured: false
-url_slides: ""
+url_slides: https://www.researchgate.net/publication/412760321_Network-scale_road_disruption_from_liquefaction_in_Cascadia_Subduction_Zone_earthquakes
 url_video: ""
 url_pdf: ""
 ---

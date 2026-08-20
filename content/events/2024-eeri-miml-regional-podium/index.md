@@ -8,7 +8,7 @@ location: "Seattle, Washington"
 # tags: ["Podium", "Liquefaction", "MIML"]
 abstract: ""
 featured: false
-url_slides: ""
+url_slides: https://www.researchgate.net/publication/396274413_A_mechanics-informed_machine_learning_model_for_regional_liquefaction_hazard_planning_and_response
 url_video: ""
-url_pdf: https://www.researchgate.net/publication/396274413_A_mechanics-informed_machine_learning_model_for_regional_liquefaction_hazard_planning_and_response
+url_pdf: ""
 ---

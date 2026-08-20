@@ -8,7 +8,7 @@ location: "Washington, D.C."
 # tags: ["Podium", "RCA", "Leachate", "TRB"]
 abstract: ""
 featured: false
-url_slides: ""
+url_slides: https://www.researchgate.net/publication/396325530_Recycled_Concrete_Aggregate_Leachate_Chemistry
 url_video: ""
-url_pdf: https://www.researchgate.net/publication/396325530_Recycled_Concrete_Aggregate_Leachate_Chemistry
+url_pdf: ""
 ---

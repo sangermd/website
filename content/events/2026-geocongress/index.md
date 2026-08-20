@@ -8,7 +8,7 @@ location: "Salt Lake City, Utah"
 # tags: ["Podium", "Liquefaction", "AI/ML", "Transportation"]
 abstract: ""
 featured: false
-url_slides: ""
+url_slides: https://www.researchgate.net/publication/412754538_Towards_improved_regional_liquefaction_hazard_assessments_using_geospatial_surrogate_models
 url_video: ""
 url_pdf: ""
 ---

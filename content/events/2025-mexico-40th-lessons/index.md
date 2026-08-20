@@ -8,7 +8,7 @@ location: "Mexico City, Mexico"
 # tags: ["Podium", "Earthquake Engineering"]
 abstract: ""
 featured: false
-url_slides: ""
+url_slides: https://www.researchgate.net/publication/396325518_Lessons_in_Geotechnical_Earthquake_Engineering_from_Large-Magnitude_Earthquakes_in_Mexico
 url_video: ""
-url_pdf: https://www.researchgate.net/publication/396325518_Lessons_in_Geotechnical_Earthquake_Engineering_from_Large-Magnitude_Earthquakes_in_Mexico
+url_pdf: ""
 ---

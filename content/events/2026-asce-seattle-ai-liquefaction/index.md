@@ -8,7 +8,7 @@ location: "Seattle, Washington"
 # tags: ["Podium", "AI/ML", "Liquefaction"]
 abstract: ""
 featured: false
-url_slides: ""
+url_slides: https://www.researchgate.net/publication/412760317_2025_EERI_LFE_Travel_Study_-_Mexico_Lessons_in_soft_soils_subsidence_and_site_effects
 url_video: ""
 url_pdf: ""
 ---

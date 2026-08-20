@@ -1,0 +1,34 @@
+<style>
+  /* Sitewide heading style override: matches the Home page's "Hello, and welcome."
+     treatment on every h1-h6, on every page, including inside .prose content
+     (blog posts, publication/event pages, markdown blocks, etc.).
+     !important is used because Tailwind Typography and per-block utility classes
+     otherwise vary heading size/weight from block to block. */
+  h1, h2, h3, h4, h5, h6,
+  .prose :where(h1, h2, h3, h4, h5, h6) {
+    font-size: 1.25rem !important;      /* text-xl */
+    font-weight: 700 !important;        /* font-bold */
+    letter-spacing: -0.025em !important;/* tracking-tight */
+    line-height: 1.4 !important;
+    color: rgb(17 24 39) !important;    /* text-gray-900 */
+  }
+
+  @media (min-width: 640px) {
+    h1, h2, h3, h4, h5, h6,
+    .prose :where(h1, h2, h3, h4, h5, h6) {
+      font-size: 1.5rem !important;     /* sm:text-2xl */
+    }
+  }
+
+  @media (min-width: 1024px) {
+    h1, h2, h3, h4, h5, h6,
+    .prose :where(h1, h2, h3, h4, h5, h6) {
+      font-size: 1.875rem !important;   /* lg:text-3xl */
+    }
+  }
+
+  .dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6,
+  .dark .prose :where(h1, h2, h3, h4, h5, h6) {
+    color: rgb(255 255 255) !important; /* dark:text-white */
+  }
+</style>

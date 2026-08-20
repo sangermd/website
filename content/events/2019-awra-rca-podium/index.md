@@ -8,7 +8,7 @@ location: "Delavan, WI"
 # tags: ["Podium", "RCA", "Leachate"]
 abstract: ""
 featured: false
-url_slides: ""
+url_slides: https://www.researchgate.net/publication/396325107_Fate_and_transport_of_Recycled_Concrete_Aggregate_leachate
 url_video: ""
-url_pdf: https://www.researchgate.net/publication/396325107_Fate_and_transport_of_Recycled_Concrete_Aggregate_leachate
+url_pdf: ""
 ---

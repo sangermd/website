@@ -8,7 +8,7 @@ location: "Portland, Oregon"
 # tags: ["Podium", "Shear Wave Velocity", "Geospatial"]
 abstract: ""
 featured: false
-url_slides: ""
+url_slides: https://www.researchgate.net/publication/412804775_Parametric_modeling_of_shear_wave_velocity_profiles_for_the_conterminous_US
 url_video: ""
 url_pdf: ""
 ---

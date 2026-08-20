@@ -8,7 +8,7 @@ location: "Portland, Oregon"
 # tags: ["Podium", "Liquefaction", "AI/ML", "Transportation"]
 abstract: ""
 featured: false
-url_slides: ""
+url_slides: https://doi.org/10.13140/RG.2.2.22260.51846
 url_video: ""
 url_pdf: ""
 ---
