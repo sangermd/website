@@ -1,6 +1,6 @@
 ---
 title: "Rapid Map: A mechanics-informed machine learning model for regional liquefaction hazard planning and response"
-authors: ["Morgan D. D. Sanger", "M. Geyin", "B. W. Maurer"]
+authors: ["Morgan D. Sanger", "M. Geyin", "B. W. Maurer"]
 date: 2024-04-12
 publishDate: 2024-04-12
 event: "Earthquake Engineering Research Institute (EERI) Annual Meeting"

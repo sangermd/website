@@ -1,49 +1,73 @@
-{{/* LOCAL OVERRIDE of the theme's citation view: renders the title as plain text instead of a link to the item's own page (those pages have no body content, so the link just repeated the title). The attachment links row (PDF, slides, etc.) below is unchanged. */}}
+{{/* LOCAL OVERRIDE of the theme's citation view: pseudo-APA formatting instead of the
+     theme's plain-text block. Changes from upstream:
+       - Titles render as plain text, not a link (their own pages have no body content).
+       - Author list only, not the taxonomy-linked `.GetTerms "authors"` version.
+       - The site owner's own name renders as bold initials ("M. D. Sanger") instead of
+         her full name, matching the initials style already used for co-authors.
+       - Venue (journal/conference) italicized; falls back to event + location for
+         Presentations, which have no `publication` field.
+       - Hanging indent after the first line, like a real reference list. */}}
 {{ $item := .item }}
 {{ $has_attachments := partial "functions/has_attachments" $item }}
 
-<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+{{/* Resolve the site owner's name -> bold initials form, e.g. "Morgan D. Sanger" -> "M. D. Sanger" */}}
+{{ $self_full := "" }}
+{{ $self_abbrev := "" }}
+{{ with site.GetPage "/authors/admin" }}
+  {{ $self_full = .Title }}
+  {{ $parts := split $self_full " " }}
+  {{ $n := len $parts }}
+  {{ $initials := "" }}
+  {{ range $i, $p := $parts }}
+    {{ if lt $i (sub $n 1) }}
+      {{ $initials = printf "%s%s. " $initials (substr $p 0 1) }}
+    {{ end }}
+  {{ end }}
+  {{ $self_abbrev = printf "%s%s" $initials (index $parts (sub $n 1)) }}
+{{ end }}
+
+{{/* Build the APA-ish author list: "A" / "A & B" / "A, B, & C" */}}
+{{ $authors := $item.Params.authors }}
+{{ $n_authors := len $authors }}
+
+{{/* Resolve a venue string to italicize: publication_short > publication > event + location */}}
+{{ $venue := "" }}
+{{ if $item.Params.publication_short }}
+  {{ $venue = $item.Params.publication_short | markdownify }}
+{{ else if $item.Params.publication }}
+  {{ $venue = $item.Params.publication | markdownify }}
+{{ else if $item.Params.event }}
+  {{ $venue = $item.Params.event }}
+  {{ with $item.Params.location }}{{ $venue = printf "%s, %s" $venue . }}{{ end }}
+{{ end }}
+
+<div class="pub-list-item view-citation view-citation-apa" style="margin-bottom: 1.25rem; padding-left: 2rem; text-indent: -2rem; line-height: 1.6;">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
-  {{/* APA Style */}}
-  {{ if eq (site.Params.publications.citation_style | default "apa") "apa" }}
-
   <span class="article-metadata li-cite-author">
-    {{ partial "page_metadata_authors" $item }}
+    {{ range $i, $a := $authors }}
+      {{- if eq $i 0 -}}
+      {{- else if eq $i (sub $n_authors 1) -}}
+        {{- if eq $n_authors 2 }} & {{ else }}, & {{ end -}}
+      {{- else -}}
+        {{- ", " -}}
+      {{- end -}}
+      {{- if eq $a $self_full -}}
+        <strong>{{ $self_abbrev }}</strong>
+      {{- else -}}
+        {{ $a }}
+      {{- end -}}
+    {{ end }}
   </span>
   ({{- $item.Date.Format "2006" -}}).
   {{ $item.Title }}.
-  {{ if $item.Params.publication_short }}
-    {{- $item.Params.publication_short | markdownify -}}.
-  {{ else if $item.Params.publication }}
-    {{- $item.Params.publication | markdownify -}}.
+  {{ with $venue }}
+    <em>{{ . }}</em>.
   {{ end }}
 
   {{ if $has_attachments }}
-  <div class="flex flex-wrap space-x-3">
+  <div class="flex flex-wrap space-x-3" style="text-indent: 0;">
     {{ partial "page_links" (dict "page" $item "is_list" 1) }}
   </div>
-  {{ end }}
-
-  {{/* MLA Style */}}
-  {{ else }}
-
-  <span class="article-metadata li-cite-author">
-    {{ partial "page_metadata_authors" $item }}.
-  </span>
-  {{ $item.Title }}.
-  {{ if $item.Params.publication_short }}
-    {{- $item.Params.publication_short | markdownify -}},
-  {{ else if $item.Params.publication }}
-    {{- $item.Params.publication | markdownify -}},
-  {{ end }}
-  {{- $item.Date.Format "2006" -}}.
-
-  {{ if $has_attachments }}
-  <div class="flex flex-wrap space-x-3">
-    {{ partial "page_links" (dict "page" $item "is_list" 1) }}
-  </div>
-  {{ end }}
-
   {{ end }}
 </div>
