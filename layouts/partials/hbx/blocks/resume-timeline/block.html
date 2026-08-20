@@ -1,0 +1,84 @@
+{{/* LOCAL BLOCK: resume-timeline
+     A generic version of the Education/Experience timeline from the theme's
+     resume-experience block (icon badge, connecting line, bold entry title,
+     gray subtitle, formatted date/date-range) — but driven by arbitrary named
+     groups of items instead of hardcoded work/education fields. Used so that
+     Honors & Awards, Professional Credentials, Service & Leadership, and
+     Professional Development can share the exact same look, and the exact
+     same tight inter-group spacing (multiple groups within one block, just
+     like Education/Experience are two groups within one resume-experience
+     block), rather than separate page sections with the default large
+     inter-section padding.
+
+     content.groups: list of
+       - title: heading text
+         icon:  heroicons name for the badge
+         date_format: optional Hugo time.Format layout (default "January 2006";
+                      use "2006" for groups where only the year is known, so we
+                      don't fabricate a month that isn't in the data)
+         items: inline list of {title, subtitle, date_start, date_end}, OR
+         field: "awards" | "service" — pulls from the author page's front
+                matter instead, using a small hardcoded field-name mapping
+                (title/subtitle/date_start/date_end -> the real field names).
+                date_start == date_end renders as a single date (no range);
+                date_end blank renders as "<start> – Present".
+*/}}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $author := $block.content.username | default "admin" }}
+{{ $person_page := site.GetPage (printf "/authors/%s" $author) }}
+
+<div class="flex flex-col items-center mx-auto w-full max-w-prose justify-center">
+  <div class="flex flex-col w-full px-6 sm:px-0">
+    {{ range $block.content.groups }}
+    {{ $group := . }}
+    {{ $icon := $group.icon | default "star" }}
+    {{ $date_format := $group.date_format | default "January 2006" }}
+
+    {{ $items := slice }}
+    {{ if $group.items }}
+      {{ $items = $group.items }}
+    {{ else if $group.field }}
+      {{ $field := $group.field }}
+      {{ range index $person_page.Params $field }}
+        {{ if eq $field "awards" }}
+          {{ $items = $items | append (dict "title" .title "subtitle" .awarder "date_start" .date "date_end" .date) }}
+        {{ else if eq $field "service" }}
+          {{ $items = $items | append (dict "title" .role "subtitle" .organization "date_start" .date_start "date_end" .date_end) }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+
+    {{ if $items }}
+    <div class="w-full">
+      <h3 class="mb-6 text-3xl font-bold text-gray-900 dark:text-white text-center">{{ $group.title }}</h3>
+      <ol class="relative w-full border-s border-gray-200 dark:border-gray-700">
+        {{ range $items }}
+        <li class="mb-10 ms-6">
+          <span class="absolute flex items-center justify-center w-6 h-6 bg-primary-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-primary-900">
+            {{ partial "functions/get_icon" (dict "name" $icon "attributes" "class='w-5 h-5 text-primary-800 dark:text-primary-300'") }}
+          </span>
+          <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">{{ .title }}</h3>
+          {{ with .subtitle }}<span class="block mb-2 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">{{ . }}</span>{{ end }}
+          {{ if .date_start }}
+          <time class="block mb-3 text-sm font-normal leading-none text-gray-500 dark:text-gray-300">
+            {{ $start := (time .date_start) | time.Format $date_format }}
+            {{ if .date_end }}
+              {{ if eq .date_start .date_end }}
+                {{ $start }}
+              {{ else }}
+                {{ $start }} – {{ (time .date_end) | time.Format $date_format }}
+              {{ end }}
+            {{ else }}
+              {{ $start }} – {{ i18n "present" | default "Present" }}
+            {{ end }}
+          </time>
+          {{ end }}
+        </li>
+        {{ end }}
+      </ol>
+    </div>
+    {{ end }}
+    {{ end }}
+  </div>
+</div>

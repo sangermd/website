@@ -31,4 +31,15 @@
   .dark .prose :where(h1, h2, h3, h4, h5, h6) {
     color: rgb(255 255 255) !important; /* dark:text-white */
   }
+
+  /* Exclusion: entry-level subheadings inside timeline lists (job titles, degree
+     titles, award titles, etc. in resume-experience / resume-timeline) are NOT
+     page/section headings and keep their original, smaller theme style instead
+     of matching "Hello, and welcome." */
+  ol.relative li h3 {
+    font-size: 1.125rem !important;   /* text-lg */
+    font-weight: 600 !important;      /* font-semibold */
+    letter-spacing: normal !important;
+    line-height: normal !important;
+  }
 </style>
