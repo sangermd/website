@@ -2,6 +2,7 @@
 title: "See what else I'm reading"
 date: 2022-09-01
 summary: Check out my Goodreads profile
+external_link: https://www.goodreads.com/user/show/56172762-morgan-sanger
 
 # Optional buttons on the card/detail page:
 links:
